@@ -3,7 +3,13 @@
 @Date：2019/1/25/7:43
 @FileName: common
 */
-body,ul,li,p,h1,h2,h3,h4,h5,h6,form,img,div,section{margin:0;padding:0;border:0;}
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,img,div,section,header, dl, dt, dd{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
 body {
   font-family: "Microsoft YaHei UI Light";
 }
@@ -12,6 +18,7 @@ body {
 }
 @mixin bg-image($url) {
   background-image: url($url + ".png");
+  background-size: cover;
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
     background-image: url($url + "@1.5x.png");
   }

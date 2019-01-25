@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c9147-4d55-46eb-8917-eeae06d9fdba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/banner@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/banner@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/banner@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo-white@1,5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo-white@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo-white@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/menu-white@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/menu-white@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/menu-white@3x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
@@ -13,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/src/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/src/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/banner.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,30 +31,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="344">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/src/index.scss">
+        <entry file="file://$PROJECT_DIR$/css/src/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="-116">
+              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/src/common.scss">
+        <entry file="file://$PROJECT_DIR$/css/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -72,9 +78,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/app.scss" />
         <option value="$PROJECT_DIR$/js/init.js" />
+        <option value="$PROJECT_DIR$/css/src/common.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/src/index.scss" />
-        <option value="$PROJECT_DIR$/css/src/common.scss" />
       </list>
     </option>
   </component>
@@ -83,13 +89,14 @@
     <option name="width" value="1174" />
     <option name="height" value="868" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +131,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,24 +170,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548373039802</updated>
-      <workItem from="1548373041578" duration="4718000" />
+      <workItem from="1548373041578" duration="5492000" />
+      <workItem from="1548381083144" duration="5370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4718000" />
+    <option name="totallyTimeSpent" value="10862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18833227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18833227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
@@ -187,6 +192,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -217,24 +226,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/src/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="344">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/src/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
         </state>
       </provider>
     </entry>
