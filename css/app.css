@@ -187,7 +187,7 @@ body {
   background: white;
   overflow: hidden; }
   .case .case-header {
-    margin: 0.768rem 0 0 0.896rem;
+    margin: 0.768rem 0 0.896rem 0.896rem;
     font-size: 0.6826666667rem;
     color: #666; }
   .case .case-content ul li {
