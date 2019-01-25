@@ -3,8 +3,8 @@
 @Date：2019/1/25/7:41
 @FileName: index
 */
-.name {
-  width: rem(100);
-  height: rem(100);
-  background: blue;
+.banner {
+  width: rem(750);
+  height: rem(465);
+  @include bg-image('../imgs/banner');
 }
