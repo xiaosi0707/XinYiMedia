@@ -45,11 +45,11 @@
   width: 100%;
   background: #f7f8fa;
   overflow: hidden;
+  padding-bottom: rem(48);
 }
 .header {
   margin: rem(54) auto rem(29);
   width: rem(672);
-
   font-size: rem(32);
   color: #666666;
   span {
@@ -105,3 +105,42 @@
     }
   }
 }
+
+.case {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  .case-header {
+    margin: rem(36) 0 0 rem(42);
+    font-size: rem(32);
+    color: #666;
+  }
+  .case-content {
+    ul {
+      li {
+        position: relative;
+        width: rem(375);
+        height: rem(375);
+        float: left;
+        img {
+          width: 100%;
+        }
+        span {
+          display: inline-block;
+          width: rem(282);
+          height: rem(50);
+          line-height: rem(50);
+          font-size: rem(24);
+          color: white;
+          margin: 0 auto;
+          background: rgba(0,0,0,0.7);
+          text-indent: rem(24);
+          position: absolute;
+          left: rem(32);
+          bottom: rem(32);
+        }
+      }
+    }
+  }
+}
+

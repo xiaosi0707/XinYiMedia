@@ -94,7 +94,8 @@ body {
 .service {
   width: 100%;
   background: #f7f8fa;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 1.024rem; }
 
 .header {
   margin: 1.152rem auto 0.6186666667rem;
@@ -180,5 +181,34 @@ body {
       font-size: 0.5546666667rem;
       color: #282828;
       line-height: 1.0666666667rem; }
+
+.case {
+  width: 100%;
+  background: white;
+  overflow: hidden; }
+  .case .case-header {
+    margin: 0.768rem 0 0 0.896rem;
+    font-size: 0.6826666667rem;
+    color: #666; }
+  .case .case-content ul li {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    float: left; }
+    .case .case-content ul li img {
+      width: 100%; }
+    .case .case-content ul li span {
+      display: inline-block;
+      width: 6.016rem;
+      height: 1.0666666667rem;
+      line-height: 1.0666666667rem;
+      font-size: 0.512rem;
+      color: white;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.7);
+      text-indent: 0.512rem;
+      position: absolute;
+      left: 0.6826666667rem;
+      bottom: 0.6826666667rem; }
 
 /*# sourceMappingURL=app.css.map */
