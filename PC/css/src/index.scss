@@ -1,0 +1,133 @@
+/**
+@Author：Wyunfei
+@Date：2019/1/27/16:28
+@FileName: index
+*/
+.wrap {
+  width: 100%;
+  height: 835px;
+  margin: 0 auto;
+  background: url("../imgs/bg.png") no-repeat center center;
+  .main {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    header {
+      margin-top: 27px;
+      overflow: hidden;
+      dl {
+        dt {
+          float: left;
+        }
+        dd {
+          float: right;
+          line-height: 24px;
+          a {
+            font-size: 18px;
+            color: #fff;
+            float: left;
+            margin-left: 45px;
+            u {
+              display: block;
+              width: 0px;
+              height: 2px;
+              background: white;
+              margin:3px 0 0 50%;
+              transition: all .5s;
+            }
+            &:hover u{
+              width: 100%;
+              margin-left: 0;
+            }
+
+            button {
+              width: 105px;
+              height: 28px;
+              background: white;
+              border-radius: 5px;
+              color: #1c7d78;
+              text-align: center;
+            }
+            img {
+              float: left;
+              margin: 5px 6px 0 0;
+            }
+          }
+        }
+      }
+    }
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      margin-top: 130px;
+    }
+    section {
+      overflow: hidden;
+      margin-top: 107px;
+      dl {
+        float: left;
+        margin-right: 168px;
+        text-align: center;
+        overflow: hidden;
+        color: #fff;
+        &:last-child {
+          margin-right: 0;
+        }
+        dt {
+
+          img {
+            width: 55px;
+          }
+          strong {
+            display: block;
+            font-size: 36px;
+            margin-top: 15px;
+
+          }
+          small {
+            font-size: 18px;
+          }
+        }
+        ul {
+          margin-top: 46px;
+          li {
+            font-size: 16px;
+
+            line-height: 33px;
+          }
+        }
+      }
+    }
+    .arrow {
+      width: 100%;
+      text-align: center;
+      img {
+        animation: arrow 1s infinite;
+      }
+    }
+  }
+}
+@keyframes arrow  {
+  from {
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 40px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes arrow  {
+  from {
+    margin-top: 10px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 40px;
+    opacity: 1;
+  }
+}
+
+

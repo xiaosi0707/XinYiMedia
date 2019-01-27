@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+@Author：Wyunfei
+@Date：2019/1/27/16:26
+@FileName: common
+*/
+body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img, div, section, header, dl, dt, dd, small {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+li {
+  list-style: none; }
+
+body {
+  font-family: "MicrosoftYaHei"; }
+
+a {
+  text-decoration: none;
+  color: #0f78ef; }
+
+/*# sourceMappingURL=common.css.map */

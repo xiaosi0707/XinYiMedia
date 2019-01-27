@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/**
+@Author：Wyunfei
+@Date：2019/1/27/16:26
+@FileName: app
+*/
+/**
+@Author：Wyunfei
+@Date：2019/1/27/16:26
+@FileName: common
+*/
+body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img, div, section, header, dl, dt, dd, small {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+li {
+  list-style: none; }
+
+button {
+  border: 0;
+  cursor: pointer; }
+
+body {
+  font-family: "MicrosoftYaHei";
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  color: #0f78ef; }
+
+/**
+@Author：Wyunfei
+@Date：2019/1/27/16:28
+@FileName: index
+*/
+.wrap {
+  width: 100%;
+  height: 835px;
+  margin: 0 auto;
+  background: url("../imgs/bg.png") no-repeat center center; }
+  .wrap .main {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .wrap .main header {
+      margin-top: 27px;
+      overflow: hidden; }
+      .wrap .main header dl dt {
+        float: left; }
+      .wrap .main header dl dd {
+        float: right;
+        line-height: 24px; }
+        .wrap .main header dl dd a {
+          font-size: 18px;
+          color: #fff;
+          float: left;
+          margin-left: 45px; }
+          .wrap .main header dl dd a u {
+            display: block;
+            width: 0px;
+            height: 2px;
+            background: white;
+            margin: 3px 0 0 50%;
+            transition: all .5s; }
+          .wrap .main header dl dd a:hover u {
+            width: 100%;
+            margin-left: 0; }
+          .wrap .main header dl dd a button {
+            width: 105px;
+            height: 28px;
+            background: white;
+            border-radius: 5px;
+            color: #1c7d78;
+            text-align: center; }
+          .wrap .main header dl dd a img {
+            float: left;
+            margin: 5px 6px 0 0; }
+    .wrap .main h1 {
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      margin-top: 130px; }
+    .wrap .main section {
+      overflow: hidden;
+      margin-top: 107px; }
+      .wrap .main section dl {
+        float: left;
+        margin-right: 168px;
+        text-align: center;
+        overflow: hidden;
+        color: #fff; }
+        .wrap .main section dl:last-child {
+          margin-right: 0; }
+        .wrap .main section dl dt img {
+          width: 55px; }
+        .wrap .main section dl dt strong {
+          display: block;
+          font-size: 36px;
+          margin-top: 15px; }
+        .wrap .main section dl dt small {
+          font-size: 18px; }
+        .wrap .main section dl ul {
+          margin-top: 46px; }
+          .wrap .main section dl ul li {
+            font-size: 16px;
+            line-height: 33px; }
+    .wrap .main .arrow {
+      width: 100%;
+      text-align: center; }
+      .wrap .main .arrow img {
+        animation: arrow 1s infinite; }
+
+@keyframes arrow {
+  from {
+    margin-top: 10px;
+    opacity: 0; }
+  to {
+    margin-top: 40px;
+    opacity: 1; } }
+@-webkit-keyframes arrow {
+  from {
+    margin-top: 10px;
+    opacity: 0; }
+  to {
+    margin-top: 40px;
+    opacity: 1; } }
+
+/*# sourceMappingURL=app.css.map */

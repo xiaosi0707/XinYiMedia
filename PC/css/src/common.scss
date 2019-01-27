@@ -1,0 +1,33 @@
+/**
+@Author：Wyunfei
+@Date：2019/1/27/16:26
+@FileName: common
+*/
+body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img, div, section, header, dl, dt, dd, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+body {
+  //font-family: "Microsoft YaHei UI Light";
+  font-family: "MicrosoftYaHei";
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #0f78ef;
+}
