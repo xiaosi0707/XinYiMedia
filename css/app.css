@@ -329,4 +329,56 @@ a {
       color: #999;
       font-size: 0.4266666667rem; }
 
+/**
+@Author：Wyunfei
+@Date：2019/1/27/11:58
+@FileName: case-detail
+*/
+.banner {
+  width: 16rem;
+  height: 2.56rem;
+  background: white;
+  position: relative; }
+  .banner .logo {
+    position: absolute;
+    width: 3.712rem;
+    height: 0.8106666667rem;
+    top: 0.9813333333rem;
+    left: 0.64rem;
+    background-image: url("../imgs/logo-black.png");
+    background-size: cover; }
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+      .banner .logo {
+        background-image: url("../imgs/logo-black@1.5x.png"); } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+      .banner .logo {
+        background-image: url("../imgs/logo-black@2x.png"); } }
+    @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+      .banner .logo {
+        background-image: url("../imgs/logo-black@3x.png"); } }
+  .banner .menu {
+    position: absolute;
+    width: 0.8533333333rem;
+    height: 0.5973333333rem;
+    top: 1.1093333333rem;
+    right: 0.64rem;
+    background-image: url("../imgs/menu-black.png");
+    background-size: cover; }
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+      .banner .menu {
+        background-image: url("../imgs/menu-black@1.5x.png"); } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+      .banner .menu {
+        background-image: url("../imgs/menu-black@2x.png"); } }
+    @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+      .banner .menu {
+        background-image: url("../imgs/menu-black@3x.png"); } }
+
+.case-detail {
+  width: 16rem;
+  overflow: hidden;
+  font-size: 0; }
+  .case-detail img {
+    width: 100%; }
+
 /*# sourceMappingURL=app.css.map */
