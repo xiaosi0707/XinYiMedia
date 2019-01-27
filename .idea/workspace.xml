@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c9147-4d55-46eb-8917-eeae06d9fdba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/src/case.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/case.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/b133cced852388117021c6946c5c6984ade3adbf/app.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b133cced852388117021c6946c5c6984ade3adbf/app.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/src/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/src/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,42 +23,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/case.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1011">
-              <caret line="184" column="31" selection-start-line="184" selection-start-column="31" selection-end-line="184" selection-end-column="31" />
+            <state relative-caret-position="1057">
+              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/src/common.scss">
+        <entry file="file://$PROJECT_DIR$/css/src/case.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgs/menu-white@3x.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/src/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="43" />
+            <state relative-caret-position="345">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -69,10 +46,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>case</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,11 +62,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/app.scss" />
         <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/css/src/index.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/src/common.scss" />
+        <option value="$PROJECT_DIR$/service.html" />
+        <option value="$PROJECT_DIR$/css/app.scss" />
+        <option value="$PROJECT_DIR$/case.html" />
+        <option value="$PROJECT_DIR$/css/src/case.scss" />
       </list>
     </option>
   </component>
@@ -101,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,29 +105,10 @@
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="app.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,6 +123,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\新逸传媒\imgs" />
+      <recent name="E:\新逸传媒" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,17 +150,18 @@
       <updated>1548373039802</updated>
       <workItem from="1548373041578" duration="5492000" />
       <workItem from="1548381083144" duration="12978000" />
+      <workItem from="1548558048392" duration="1504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18470000" />
+    <option name="totallyTimeSpent" value="19974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18833227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18833227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -229,12 +198,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/case8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/case4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/case8.png" />
+    <entry file="file://$PROJECT_DIR$/imgs/case4.png" />
     <entry file="file://$PROJECT_DIR$/imgs/case1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -247,31 +212,48 @@
     <entry file="file://$PROJECT_DIR$/imgs/menu-white@3x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/src/index.scss">
+    <entry file="file://$PROJECT_DIR$/css/src/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="275">
+          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1011">
-          <caret line="184" column="31" selection-start-line="184" selection-start-column="31" selection-end-line="184" selection-end-column="31" />
+        <state relative-caret-position="139">
+          <caret line="111" column="6" lean-forward="true" selection-start-line="18" selection-end-line="111" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/src/common.scss">
+    <entry file="file://$PROJECT_DIR$/css/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="237">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1057">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/src/case.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>

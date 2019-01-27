@@ -300,4 +300,33 @@ a {
       left: 0.6826666667rem;
       bottom: 0.6826666667rem; }
 
+/**
+@Author：Wyunfei
+@Date：2019/1/27/11:14
+@FileName: case
+*/
+.case-center {
+  width: 100%;
+  background: white;
+  overflow: hidden; }
+
+.case-content {
+  width: 14.3786666667rem;
+  margin: 0 auto 1.3226666667rem; }
+  .case-content dl dt {
+    width: 100%; }
+    .case-content dl dt img {
+      width: 100%; }
+  .case-content dl dd {
+    text-align: center; }
+    .case-content dl dd p {
+      font-size: 0.5973333333rem;
+      color: #333;
+      font-family: "MicrosoftYaHei";
+      line-height: 1.28rem; }
+    .case-content dl dd span {
+      display: block;
+      color: #999;
+      font-size: 0.4266666667rem; }
+
 /*# sourceMappingURL=app.css.map */

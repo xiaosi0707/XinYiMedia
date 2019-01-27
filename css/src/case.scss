@@ -1,0 +1,37 @@
+/**
+@Author：Wyunfei
+@Date：2019/1/27/11:14
+@FileName: case
+*/
+.case-center {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+}
+.case-content {
+  width: rem(674);
+  margin: 0 auto rem(62);
+  dl {
+    dt {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    dd {
+      text-align: center;
+
+      p {
+        font-size: rem(28);
+        color: #333;
+        font-family: "MicrosoftYaHei";
+        line-height: rem(60);
+      }
+      span {
+        display: block;
+        color: #999;
+        font-size: rem(20);
+      }
+    }
+  }
+}

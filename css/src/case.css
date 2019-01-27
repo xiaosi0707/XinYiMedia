@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/**
+@Author：Wyunfei
+@Date：2019/1/27/11:14
+@FileName: case
+*/
+.case-center {
+  width: 100%;
+  background: white;
+  overflow: hidden; }
+
+.case-content {
+  width: rem(674);
+  margin: 0 auto; }
+  .case-content dl dt {
+    width: 100%; }
+    .case-content dl dt img {
+      width: 100%; }
+
+/*# sourceMappingURL=case.css.map */
