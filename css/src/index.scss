@@ -3,7 +3,7 @@
 @Date：2019/1/25/7:41
 @FileName: index
 */
-.banner {
+.banner-index {
   width: rem(750);
   height: rem(465);
   position: relative;
@@ -106,16 +106,16 @@
   }
 }
 
-.case {
+.case-index {
   width: 100%;
   background: white;
   overflow: hidden;
-  .case-header {
+  .case-index-header {
     margin: rem(36) 0 rem(42) rem(42);
     font-size: rem(32);
     color: #666;
   }
-  .case-content {
+  .case-index-content {
     ul {
       li {
         position: relative;

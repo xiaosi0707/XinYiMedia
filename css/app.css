@@ -21,7 +21,7 @@ li {
   list-style: none; }
 
 body {
-  font-family: "Microsoft YaHei UI Light"; }
+  font-family: "MicrosoftYaHei"; }
 
 a {
   text-decoration: none;
@@ -49,7 +49,7 @@ a {
     color: #000;
     line-height: 1.28rem; }
 
-.about {
+.about-footer {
   width: 14.4853333333rem;
   margin: 0 auto;
   border: 1px #EEEFEF solid;
@@ -57,20 +57,20 @@ a {
   border-right: 0;
   overflow: hidden;
   padding: 0.8533333333rem 0; }
-  .about ul {
+  .about-footer ul {
     width: 9.0666666667rem;
     margin: 0 auto; }
-    .about ul a {
+    .about-footer ul a {
       font-size: 0.64rem;
       color: #999;
       font-family: "SourceHanSansCN-Normal";
       margin-right: 0.896rem; }
-      .about ul a:last-child {
+      .about-footer ul a:last-child {
         margin-right: 0; }
-  .about dl {
+  .about-footer dl {
     width: 7.6586666667rem;
     margin: 1.0666666667rem auto 0; }
-    .about dl dt {
+    .about-footer dl dt {
       width: 2.7733333333rem;
       height: 2.816rem;
       background-image: url("../imgs/sina.png");
@@ -78,28 +78,28 @@ a {
       float: left;
       margin-right: 1.984rem; }
       @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-        .about dl dt {
+        .about-footer dl dt {
           background-image: url("../imgs/sina@1.5x.png"); } }
       @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-        .about dl dt {
+        .about-footer dl dt {
           background-image: url("../imgs/sina@2x.png"); } }
       @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-        .about dl dt {
+        .about-footer dl dt {
           background-image: url("../imgs/sina@3x.png"); } }
-    .about dl dd {
+    .about-footer dl dd {
       width: 2.752rem;
       height: 2.6666666667rem;
       background-image: url("../imgs/qr-code.png");
       background-size: cover;
       float: left; }
       @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-        .about dl dd {
+        .about-footer dl dd {
           background-image: url("../imgs/qr-code@1.5x.png"); } }
       @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-        .about dl dd {
+        .about-footer dl dd {
           background-image: url("../imgs/qr-code@2x.png"); } }
       @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-        .about dl dd {
+        .about-footer dl dd {
           background-image: url("../imgs/qr-code@3x.png"); } }
 
 .copy-right {
@@ -110,29 +110,30 @@ a {
   font-size: 0.4693333333rem;
   color: #666666;
   text-align: center;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 0.512rem; }
 
 /**
 @Author：Wyunfei
 @Date：2019/1/25/7:41
 @FileName: index
 */
-.banner {
+.banner-index {
   width: 16rem;
   height: 9.92rem;
   position: relative;
   background-image: url("../imgs/banner.png");
   background-size: cover; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-    .banner {
+    .banner-index {
       background-image: url("../imgs/banner@1.5x.png"); } }
   @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-    .banner {
+    .banner-index {
       background-image: url("../imgs/banner@2x.png"); } }
   @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-    .banner {
+    .banner-index {
       background-image: url("../imgs/banner@3x.png"); } }
-  .banner .logo {
+  .banner-index .logo {
     position: absolute;
     width: 3.712rem;
     height: 0.8106666667rem;
@@ -141,15 +142,15 @@ a {
     background-image: url("../imgs/logo-white.png");
     background-size: cover; }
     @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-      .banner .logo {
+      .banner-index .logo {
         background-image: url("../imgs/logo-white@1.5x.png"); } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-      .banner .logo {
+      .banner-index .logo {
         background-image: url("../imgs/logo-white@2x.png"); } }
     @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-      .banner .logo {
+      .banner-index .logo {
         background-image: url("../imgs/logo-white@3x.png"); } }
-  .banner .menu {
+  .banner-index .menu {
     position: absolute;
     width: 0.8533333333rem;
     height: 0.5973333333rem;
@@ -158,23 +159,23 @@ a {
     background-image: url("../imgs/menu-white.png");
     background-size: cover; }
     @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-      .banner .menu {
+      .banner-index .menu {
         background-image: url("../imgs/menu-white@1.5x.png"); } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-      .banner .menu {
+      .banner-index .menu {
         background-image: url("../imgs/menu-white@2x.png"); } }
     @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-      .banner .menu {
+      .banner-index .menu {
         background-image: url("../imgs/menu-white@3x.png"); } }
-  .banner .title {
+  .banner-index .title {
     text-align: center;
     padding-top: 4.1386666667rem; }
-    .banner .title span:first-child {
+    .banner-index .title span:first-child {
       font-size: 1.28rem;
       color: white;
       font-family: 'SourceHanSansCN-Light';
       display: inline-block; }
-    .banner .title span:last-child {
+    .banner-index .title span:last-child {
       display: inline-block;
       font-size: 0.64rem;
       color: white;
@@ -271,22 +272,22 @@ a {
       color: #282828;
       line-height: 1.0666666667rem; }
 
-.case {
+.case-index {
   width: 100%;
   background: white;
   overflow: hidden; }
-  .case .case-header {
+  .case-index .case-index-header {
     margin: 0.768rem 0 0.896rem 0.896rem;
     font-size: 0.6826666667rem;
     color: #666; }
-  .case .case-content ul li {
+  .case-index .case-index-content ul li {
     position: relative;
     width: 8rem;
     height: 8rem;
     float: left; }
-    .case .case-content ul li img {
+    .case-index .case-index-content ul li img {
       width: 100%; }
-    .case .case-content ul li span {
+    .case-index .case-index-content ul li span {
       display: inline-block;
       width: 6.016rem;
       height: 1.0666666667rem;
@@ -380,5 +381,129 @@ a {
   font-size: 0; }
   .case-detail img {
     width: 100%; }
+
+/**
+@Author：Wyunfei
+@Date：2019/1/27/14:25
+@FileName: about
+*/
+.about {
+  width: 16rem;
+  height: 19.4346666667rem;
+  position: relative;
+  background-size: contain;
+  background-image: url("../imgs/about.png");
+  background-size: cover;
+  overflow: hidden; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+    .about {
+      background-image: url("../imgs/about@1.5x.png"); } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    .about {
+      background-image: url("../imgs/about@2x.png"); } }
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    .about {
+      background-image: url("../imgs/about@3x.png"); } }
+  .about section {
+    width: 14.9973333333rem;
+    height: 12.032rem;
+    position: absolute;
+    top: 6.2293333333rem;
+    left: 0.5333333333rem;
+    font-family: "MicrosoftYaHei";
+    color: #666666;
+    padding-left: 1.0453333333rem; }
+    .about section h2 {
+      font-size: 0.8533333333rem;
+      margin-bottom: 1.0453333333rem;
+      margin-top: 1.28rem; }
+    .about section p {
+      font-size: 0.5546666667rem;
+      line-height: 0.96rem; }
+
+.form {
+  width: 16rem;
+  text-align: center;
+  overflow: hidden; }
+  .form h1 {
+    font-size: 0.8533333333rem;
+    color: #333;
+    font-family: "MicrosoftYaHei";
+    margin-top: 1.4506666667rem; }
+  .form small {
+    font-size: 0.5546666667rem;
+    color: #fd8400;
+    display: block;
+    margin-bottom: 1.3866666667rem; }
+  .form form p {
+    margin-top: 0.5546666667rem; }
+    .form form p input, .form form p input[type="submit"], .form form p textarea {
+      width: 14.4213333333rem;
+      height: 2.1333333333rem;
+      border: 2px #EEEEEE solid;
+      font-size: 0.5973333333rem;
+      text-indent: 0.6826666667rem;
+      color: #a3a3a3; }
+    .form form p input[type="submit"] {
+      margin-top: 1.1733333333rem;
+      width: 7.168rem;
+      height: 1.6853333333rem;
+      border: 3px #ff8300 solid;
+      text-indent: 0;
+      color: #ff8300;
+      font-size: 0.6826666667rem;
+      background: #ffffff; }
+    .form form p textarea {
+      height: 5.76rem;
+      line-height: 1.0666666667rem;
+      font-family: "MicrosoftYaHei"; }
+
+.contact p {
+  margin-top: 2.1333333333rem;
+  font-size: 0.6826666667rem;
+  color: #333;
+  line-height: 0.8533333333rem;
+  text-align: center; }
+.contact ul {
+  margin-top: 1.024rem;
+  width: 16rem;
+  height: 13.5893333333rem;
+  text-align: center;
+  background-image: url("../imgs/contact.png");
+  background-size: cover;
+  color: white;
+  padding-top: 1.1306666667rem; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+    .contact ul {
+      background-image: url("../imgs/contact@1.5x.png"); } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    .contact ul {
+      background-image: url("../imgs/contact@2x.png"); } }
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    .contact ul {
+      background-image: url("../imgs/contact@3x.png"); } }
+  .contact ul span {
+    width: 100%;
+    font-size: 0.512rem;
+    color: #d7d7d7;
+    margin-top: 1.2373333333rem; }
+  .contact ul small {
+    display: block;
+    font-size: 0.768rem;
+    color: #d7d7d7; }
+  .contact ul button {
+    width: 6.0586666667rem;
+    height: 1.536rem;
+    background: #000;
+    border: 2px #ffffff solid;
+    color: #eeeeee; }
+  .contact ul li:first-child {
+    font-size: 0.768rem; }
+  .contact ul li:nth-child(2) {
+    margin-top: 1.2373333333rem; }
+  .contact ul li:nth-child(3) {
+    margin-top: 1.2373333333rem; }
+  .contact ul li:nth-child(4) {
+    margin-top: 1.92rem; }
 
 /*# sourceMappingURL=app.css.map */

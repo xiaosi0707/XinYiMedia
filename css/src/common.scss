@@ -18,7 +18,8 @@ li {
 }
 
 body {
-  font-family: "Microsoft YaHei UI Light";
+  //font-family: "Microsoft YaHei UI Light";
+  font-family: "MicrosoftYaHei";
 }
 
 a {
@@ -75,7 +76,7 @@ a {
   }
 }
 
-.about {
+.about-footer {
   width: rem(679);
   margin: 0 auto;
   border: 1px #EEEFEF solid;
@@ -130,5 +131,6 @@ a {
   color: #666666;
   text-align: center;
   overflow: hidden;
+  padding-bottom: rem(24);
 }
 
