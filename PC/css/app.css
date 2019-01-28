@@ -128,5 +128,59 @@ a {
   to {
     margin-top: 40px;
     opacity: 1; } }
+.case-list {
+  width: 1170px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .case-list header {
+    font-size: 24px;
+    line-height: 143px;
+    text-align: center;
+    color: #3B3B3B; }
+  .case-list section div {
+    margin-top: 36px;
+    margin-right: 12px;
+    width: 382px;
+    overflow: hidden;
+    float: left; }
+    .case-list section div dt {
+      width: 382px;
+      height: 640px;
+      overflow: hidden; }
+      .case-list section div dt img {
+        width: 382px;
+        height: 640px; }
+    .case-list section div dd {
+      margin-top: 24px; }
+      .case-list section div dd p {
+        font-size: 24px;
+        color: #5E5E5E;
+        line-height: 32px; }
+      .case-list section div dd span {
+        font-size: 18px;
+        color: #BFBFBF; }
+  .case-list section dl {
+    width: 382px;
+    float: left;
+    margin-top: 31px;
+    margin-right: 12px;
+    overflow: hidden; }
+    .case-list section dl dt img {
+      width: 382px;
+      height: 265px; }
+    .case-list section dl dd {
+      margin: 24px auto 0;
+      width: 362px; }
+      .case-list section dl dd p {
+        font-size: 24px;
+        color: #5E5E5E;
+        line-height: 32px; }
+      .case-list section dl dd span {
+        font-size: 18px;
+        color: #BFBFBF; }
+    .case-list section dl:nth-of-type(2), .case-list section dl:nth-of-type(4) {
+      margin-right: 0; }
+    .case-list section dl:nth-of-type(n + 7):nth-of-type(3n + 1) {
+      margin-right: 0; }
 
 /*# sourceMappingURL=app.css.map */
