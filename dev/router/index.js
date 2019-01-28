@@ -7,6 +7,7 @@ const fs = require('fs')
 const express = require('express')
 
 let router = express.Router()
+
 router.get('/', (req, res) => {
     res.render('index.html')
 })
@@ -18,6 +19,9 @@ router.get('/case-detail', (req, res) => {
 })
 router.get('/about', (req, res) => {
     res.render('about.html')
+})
+router.post('/about', (req, res) => {
+    let { body } = req
 })
 
 

@@ -6,7 +6,13 @@
 
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser')
 const router = require('./router')
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }))
+
+
 app.use(router)
 app.engine('html', require('express-art-template'))
 
@@ -16,4 +22,7 @@ app.use('/assets/', express.static('./assets'))
 app.listen(7000, () => {
     console.log('app is running at http://localhost:7000/')
 })
+
+
+
 

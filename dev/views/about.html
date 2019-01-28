@@ -28,24 +28,24 @@
 <div class="form">
     <h1>合作咨询<small>(以下内容均为必填)</small></h1>
 
-    <form action="" method="post">
+    <form action="/about" method="post" onsubmit="return formCheck()">
         <p>
-            <input type="text" placeholder="姓名">
+            <input type="text" name="name" placeholder="姓名">
         </p>
         <p>
-            <input type="text" placeholder="公司">
+            <input type="text" name="company" placeholder="公司">
         </p>
         <p>
-            <input type="tel" placeholder="电话">
+            <input type="tel" placeholder="电话" name="tel">
         </p>
         <p>
-            <input type="email" placeholder="邮箱">
+            <input type="email" placeholder="邮箱" name="email">
         </p>
         <p>
-            <textarea cols="3" placeholder="请填写您咨询的内容"></textarea>
+            <textarea cols="3" placeholder="请填写您咨询的内容" name="content"></textarea>
         </p>
         <p>
-            <input value="提交" type="submit"/>
+            <input value="提交" type="submit" />
         </p>
     </form>
 </div>
@@ -73,5 +73,10 @@
 <div class="copy-right">
     @xinyi.all rights reserved.
 </div>
+<script>
+    function formCheck() {
+        return true
+    }
+</script>
 </body>
 </html>
