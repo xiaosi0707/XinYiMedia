@@ -32,6 +32,13 @@ a {
   text-decoration: none;
   color: #0f78ef; }
 
+a:hover {
+  text-decoration: underline; }
+
+.page {
+  width: 100%;
+  height: 348px; }
+
 /**
 @Author：Wyunfei
 @Date：2019/1/27/16:28
@@ -267,5 +274,95 @@ a {
         letter-spacing: 0px;
         color: #c9c9c9;
         margin-top: 66px; }
+
+/**
+@Author：Wyunfei
+@Date：2019/1/28/10:18
+@FileName: case-detail
+*/
+.case-detail {
+  width: 100%;
+  margin: 0 auto; }
+  .case-detail .main {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .case-detail .main header {
+      height: 95px;
+      line-height: 95px;
+      overflow: hidden; }
+      .case-detail .main header dl {
+        margin-top: 24px; }
+        .case-detail .main header dl dt {
+          float: left;
+          margin-top: -12px; }
+        .case-detail .main header dl dd {
+          float: right;
+          line-height: 24px;
+          margin-top: 10px; }
+          .case-detail .main header dl dd a {
+            font-size: 18px;
+            color: #000;
+            float: left;
+            margin-left: 45px; }
+            .case-detail .main header dl dd a u {
+              display: block;
+              width: 0px;
+              height: 2px;
+              background: #1CB1AA;
+              margin: 3px 0 0 50%;
+              transition: all .5s; }
+            .case-detail .main header dl dd a:hover u {
+              width: 100%;
+              margin-left: 0; }
+            .case-detail .main header dl dd a:hover {
+              text-decoration: none; }
+            .case-detail .main header dl dd a button {
+              width: 105px;
+              height: 28px;
+              background: white;
+              border-radius: 5px;
+              color: #1c7d78;
+              text-align: center; }
+            .case-detail .main header dl dd a img {
+              float: left;
+              margin: 5px 6px 0 0; }
+
+.case-content {
+  width: 100%;
+  height: 4632px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: url("../imgs/case-detail.jpg") no-repeat center center; }
+
+.page {
+  width: 100%;
+  overflow: hidden; }
+  .page p {
+    width: 100%;
+    font-family: "ArialMT";
+    font-size: 48px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #464646;
+    text-align: center;
+    margin-top: 79px;
+    margin-bottom: 61px; }
+  .page section {
+    width: 927px;
+    overflow: hidden;
+    margin: 0 auto; }
+    .page section a {
+      display: inline-block;
+      width: 460px;
+      height: 90px;
+      line-height: 90px;
+      border-top: 1px #F7F7F7 solid;
+      border-bottom: 1px #F7F7F7 solid;
+      text-align: center;
+      color: #303030;
+      font-size: 16px; }
+      .page section a:last-child {
+        border-left: 1px #E6E6E6 solid; }
 
 /*# sourceMappingURL=app.css.map */
