@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c9147-4d55-46eb-8917-eeae06d9fdba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PC/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/about-us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/qr-code1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/qr-code2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/imgs/video.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PC/css/.sass-cache/daca0751f8e53950b2d609361a166a97c5c8ec70/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/.sass-cache/daca0751f8e53950b2d609361a166a97c5c8ec70/index.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PC/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PC/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/app.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PC/css/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/imgs/network@1.5x.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,55 +30,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PC/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="150" column="17" selection-start-line="150" selection-start-column="17" selection-end-line="150" selection-end-column="17" />
+            <state relative-caret-position="368">
+              <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PC/css/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+            <state relative-caret-position="156">
+              <caret line="271" column="25" selection-start-line="271" selection-start-column="25" selection-end-line="271" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/demo.html">
+        <entry file="file://$PROJECT_DIR$/移动端/css/src/about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="552">
+              <caret line="111" column="21" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="111" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/imgs/logo-white.png">
+        <entry file="file://$PROJECT_DIR$/PC/imgs/contact.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/imgs/logo.png">
+        <entry file="file://$PROJECT_DIR$/PC/imgs/about.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/imgs/case8.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/css/src/common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -120,8 +107,8 @@
         <option value="$PROJECT_DIR$/PC/css/app.scss" />
         <option value="$PROJECT_DIR$/PC/css/src/common.scss" />
         <option value="$PROJECT_DIR$/PC/demo.html" />
-        <option value="$PROJECT_DIR$/PC/index.html" />
         <option value="$PROJECT_DIR$/PC/css/src/index.scss" />
+        <option value="$PROJECT_DIR$/PC/index.html" />
       </list>
     </option>
   </component>
@@ -161,12 +148,32 @@
               <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
               <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
               <item name="PC" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
               <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
               <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
               <item name="移动端" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="移动端" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="移动端" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
@@ -221,12 +228,12 @@
       <workItem from="1548373041578" duration="5492000" />
       <workItem from="1548381083144" duration="12978000" />
       <workItem from="1548558048392" duration="13380000" />
-      <workItem from="1548579286844" duration="10027000" />
+      <workItem from="1548579286844" duration="12665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41877000" />
+    <option name="totallyTimeSpent" value="44515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
@@ -237,7 +244,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3301887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,13 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/css/src/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/移动端/imgs/sina@1.5x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -336,17 +336,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/index.html">
+    <entry file="file://$PROJECT_DIR$/PC/imgs/about-us.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/css/src/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="150" column="17" selection-start-line="150" selection-start-column="17" selection-end-line="150" selection-end-column="17" />
+        <state relative-caret-position="206">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/imgs/about.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/imgs/contact.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/css/src/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="111" column="21" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="111" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="69" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/css/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+        <state relative-caret-position="156">
+          <caret line="271" column="25" selection-start-line="271" selection-start-column="25" selection-end-line="271" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
         </state>
       </provider>
     </entry>
