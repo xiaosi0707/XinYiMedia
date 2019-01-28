@@ -2,17 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c9147-4d55-46eb-8917-eeae06d9fdba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PC/case-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/css/src/case-detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/case-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/imgs/logo-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/about.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case-detail.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/88ec71fe05882ae3a2fb2b81a90ef20837ca067a/app.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/b133cced852388117021c6946c5c6984ade3adbf/app.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/about.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/case-detail.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/case.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/common.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/index.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/app.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/about.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case-detail.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/about.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/case-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/case-detail.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/case-detail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/case.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/case.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/case.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/common.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/css/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/about@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/about@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/about@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/banner@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/banner@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/banner@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/brand@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/brand@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/brand@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case-detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/case8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/contact@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/contact@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/contact@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/logo-black@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/logo-black@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/logo-black@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/logo-white@1,5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/logo-white@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/logo-white@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/menu-black@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/menu-black@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/menu-black@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/menu-white@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/menu-white@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/menu-white@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/network@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/network@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/network@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/qr-code@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/qr-code@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/qr-code@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/sina@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/sina@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/sina@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/user@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/user@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/user@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/video@1.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/video@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/video@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/js/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/views/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/views/case-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/views/case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/.sass-cache/5aa8014a0cfaddc66497d823955934e0f0f3f39b/app.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/.sass-cache/5aa8014a0cfaddc66497d823955934e0f0f3f39b/app.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/.sass-cache/daca0751f8e53950b2d609361a166a97c5c8ec70/common.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/.sass-cache/daca0751f8e53950b2d609361a166a97c5c8ec70/common.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/src/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/src/common.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,42 +109,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/case-detail.html">
+        <entry file="file://$PROJECT_DIR$/dev/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="299">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/imgs/case-detail.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/dev/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1909">
+              <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/assets/js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/assets/css/src/case.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PC/css/src/case-detail.scss">
+        <entry file="file://$PROJECT_DIR$/dev/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="23">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/css/src/index.scss">
+        <entry file="file://$PROJECT_DIR$/dev/views/case-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="-300">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/css/app.scss">
+        <entry file="file://$PROJECT_DIR$/dev/views/case.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="-461">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/views/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -71,9 +194,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,6 +233,13 @@
         <option value="$PROJECT_DIR$/PC/case-detail.html" />
         <option value="$PROJECT_DIR$/PC/css/src/common.scss" />
         <option value="$PROJECT_DIR$/PC/css/src/case-detail.scss" />
+        <option value="$PROJECT_DIR$/dev/app.js" />
+        <option value="$PROJECT_DIR$/dev/views/index.html" />
+        <option value="$PROJECT_DIR$/dev/views/case-detail.html" />
+        <option value="$PROJECT_DIR$/dev/views/case.html" />
+        <option value="$PROJECT_DIR$/dev/views/about.html" />
+        <option value="$PROJECT_DIR$/dev/router/index.js" />
+        <option value="$PROJECT_DIR$/dev/.gitignore" />
       </list>
     </option>
   </component>
@@ -127,7 +257,27 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="移动端" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,10 +291,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\新逸传媒\dev" />
+      <recent name="E:\新逸传媒\dev\views" />
+      <recent name="E:\新逸传媒\dev\assets" />
       <recent name="E:\新逸传媒\PC\imgs" />
       <recent name="E:\新逸传媒\PC" />
-      <recent name="E:\新逸传媒\imgs" />
-      <recent name="E:\新逸传媒" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,18 +323,18 @@
       <workItem from="1548373041578" duration="5492000" />
       <workItem from="1548381083144" duration="12978000" />
       <workItem from="1548558048392" duration="13380000" />
-      <workItem from="1548579286844" duration="15704000" />
+      <workItem from="1548579286844" duration="20125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47554000" />
+    <option name="totallyTimeSpent" value="51975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18833227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17311351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,12 +357,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/app.css" />
-    <entry file="file://$PROJECT_DIR$/js/init.js" />
-    <entry file="file://$PROJECT_DIR$/imgs/case8.png" />
-    <entry file="file://$PROJECT_DIR$/imgs/case4.png" />
-    <entry file="file://$PROJECT_DIR$/imgs/case1.jpg" />
-    <entry file="file://$PROJECT_DIR$/imgs/case2.jpg" />
     <entry file="file://$PROJECT_DIR$/css/src/common.css" />
     <entry file="file://$PROJECT_DIR$/imgs/menu-white@3x.png" />
     <entry file="file://$PROJECT_DIR$/css/src/case.scss" />
@@ -336,8 +481,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/css/src/case-detail.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="207">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/case.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/assets/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/case-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/case.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

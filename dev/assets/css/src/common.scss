@@ -1,0 +1,136 @@
+/**
+@Author：Wyunfei
+@Date：2019/1/25/7:43
+@FileName: common
+*/
+body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img, div, section, header, dl, dt, dd, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  //font-family: "Microsoft YaHei UI Light";
+  font-family: "MicrosoftYaHei";
+}
+
+a {
+  text-decoration: none;
+  color: #0f78ef;
+}
+
+@function rem($px) {
+  @return $px / 46.875 + rem;
+}
+
+@mixin bg-image($url) {
+  background-image: url($url + ".png");
+  background-size: cover;
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+    background-image: url($url + "@1.5x.png");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    background-image: url($url + "@2x.png");
+  }
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    background-image: url($url + "@3x.png");
+  }
+}
+
+.slogin {
+  width: 100%;
+  background: #f7f8fa;
+  padding-bottom: rem(39);
+
+  & p:first-child {
+    padding: rem(43) 0 0 rem(47);
+    font-size: rem(34);
+    color: #040404;
+  }
+
+  & p:last-child {
+    padding: rem(14) 0 0 rem(47);
+    font-family: "ArialMT";
+    font-size: rem(18);
+    color: #999999;
+  }
+}
+
+.connect {
+  padding: rem(47);
+
+  p {
+    font-family: "SourceHanSansCN-Normal";
+    font-size: rem(30);
+    color: #000;
+    line-height: rem(60);
+
+  }
+}
+
+.about-footer {
+  width: rem(679);
+  margin: 0 auto;
+  border: 1px #EEEFEF solid;
+  border-left: 0;
+  border-right: 0;
+  overflow: hidden;
+  padding: rem(40) 0;
+  ul {
+    width: rem(425);
+    margin: 0 auto;
+
+    a {
+      font-size: rem(30);
+      color: #999;
+      font-family: "SourceHanSansCN-Normal";
+      margin-right: rem(42);
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  dl {
+    width: rem(359);
+    margin: rem(50) auto 0;
+
+    dt {
+      width: rem(130);
+      height: rem(132);
+      @include bg-image('../imgs/sina');
+      float: left;
+      margin-right: rem(93);
+    }
+
+    dd {
+      width: rem(129);
+      height: rem(125);
+      @include bg-image('../imgs/qr-code');
+      float: left;
+
+    }
+  }
+}
+
+.copy-right {
+  width: 100%;
+  height: rem(88);
+  line-height: rem(88);
+  font-family: "SourceHanSansCN-Normal";
+  font-size: rem(22);
+  color: #666666;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: rem(24);
+}
+

@@ -1,0 +1,35 @@
+/**
+@Author：Wyunfei
+@Date：2019/1/27/11:58
+@FileName: case-detail
+*/
+.banner {
+  width: rem(750);
+  height: rem(120);
+  background: white;
+  position: relative;
+  .logo {
+    position: absolute;
+    width: rem(174);
+    height: rem(38);
+    top: rem(46);
+    left: rem(30);
+    @include bg-image('../imgs/logo-black');
+  }
+  .menu {
+    position: absolute;
+    width: rem(40);
+    height: rem(28);
+    top: rem(52);
+    right: rem(30);
+    @include bg-image('../imgs/menu-black');
+  }
+}
+.case-detail {
+  width: rem(750);
+  overflow: hidden;
+  font-size: 0;
+  img {
+    width: 100%;
+  }
+}
