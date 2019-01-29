@@ -4,6 +4,7 @@
  @FileName: app.js
  */
 
+const fs = require('fs')
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
@@ -22,6 +23,8 @@ app.use('/assets/', express.static('./assets'))
 app.listen(7000, () => {
     console.log('app is running at http://localhost:7000/')
 })
+
+
 
 
 
