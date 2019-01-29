@@ -63,6 +63,11 @@ router.get('/admin', (req, res) => {
         })
     })
 })
+
+router.get('/admin/case', (req, res) => {
+    res.render('../admin/case.html')
+})
+
 router.get('/msg-list', (req, res) => {
     // res.json(questions)
     fs.readFile('db.json', (err, data) => {
