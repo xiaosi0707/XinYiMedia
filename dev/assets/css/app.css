@@ -17,6 +17,9 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img, div, section, header, dl, dt
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
+i {
+  font-style: normal; }
+
 li {
   list-style: none; }
 
@@ -436,6 +439,7 @@ a {
     display: block;
     margin-bottom: 1.3866666667rem; }
   .form form p {
+    position: relative;
     margin-top: 0.5546666667rem; }
     .form form p input, .form form p input[type="submit"], .form form p textarea {
       width: 14.4213333333rem;
@@ -457,6 +461,15 @@ a {
       height: 5.76rem;
       line-height: 1.0666666667rem;
       font-family: "MicrosoftYaHei"; }
+      .form form p textarea + i {
+        top: 132px; }
+    .form form p i {
+      font-size: 0.5546666667rem;
+      color: #fd8400;
+      position: absolute;
+      top: 0.768rem;
+      right: 1.0666666667rem;
+      display: none; }
 
 .contact p {
   margin-top: 2.1333333333rem;

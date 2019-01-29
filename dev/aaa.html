@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>formcheck</title>
+
+</head>
+
+<body>
+<form action="success.html" method="get" onsubmit="return check()">
+    <fieldset>
+        <legend>
+            表单验证小例子
+        </legend>
+        <h3>
+            请输入信息
+        </h3>
+        <label>
+            用户名：
+        </label>
+        <input type="text" id="username" name="username"
+               oninput="checkusrn()" />
+        <span id="checktext1"></span>
+        <br />
+        <label>
+            密码：
+        </label>
+        <input type="password" id="password" name="password"
+               onchange="checkpwd()" />
+        <span id="checktext2"></span>
+        <br />
+        <label>
+            确认密码：
+        </label>
+        <input type="password" id="pwdc" name="pwdc" onchange="checkpwdc()" />
+        <span id="checktext3"></span>
+        <br />
+        <input type="checkbox" name="checkbox" onchange="checkcb()" />
+        <label>
+            我已经阅读了XX条款并不能同意得更多
+        </label>
+        <span id="checktext4"></span>
+        <br />
+        <br />
+        <input type="submit" value="走！" />
+    </fieldset>
+</form>
+<script type="text/javascript">
+    function checkusrn() {
+        console.log(1)
+        // var check = false;
+        // var username = document.getElementById("username").value;
+        // if (username.length > 10) {
+        //     document.getElementById("checktext1").innerHTML = " × 不要多于10位";
+        //     check = false;
+        // } else {
+        //     document.getElementById("checktext1").innerHTML = " √";
+        //     check = true;
+        // }
+        // return check;
+    }
+</script>
+</body>
+</html>

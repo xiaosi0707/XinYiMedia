@@ -48,6 +48,7 @@
   }
   form {
     p {
+      position: relative;
       margin-top: rem(26);
       input, textarea {
         width: rem(676);
@@ -72,6 +73,17 @@
         height: rem(270);
         line-height: rem(50);
         font-family: "MicrosoftYaHei";
+        & + i{
+          top: 132px;
+        }
+      }
+      i {
+        font-size: rem(26);
+        color: #fd8400;
+        position: absolute;
+        top: rem(36);
+        right: rem(50);
+        display: none;
       }
     }
   }
