@@ -43,5 +43,35 @@ router.post('/about', (req, res) => {
         })
     })
 })
+var questions=[
+    {
+        data:213,
+        num:444,
+        age:12
+    },
+    {
+        data:456,
+        num:678,
+        age:13
+    }];
+
+router.get('/admin', (req, res) => {
+    fs.readFile('db.json', (err, data) => {
+        let getData = JSON.parse(data.toString()).data
+        res.render('../admin/index.html', {
+            getData
+        })
+    })
+})
+router.get('/msg-list', (req, res) => {
+    // res.json(questions)
+    fs.readFile('db.json', (err, data) => {
+        let getData = JSON.parse(data.toString()).data
+        res.json({
+            code: 0,
+            data:getData
+        })
+    })
+})
 
 module.exports = router

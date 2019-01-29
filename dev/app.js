@@ -19,6 +19,7 @@ app.engine('html', require('express-art-template'))
 
 // 设置开放目录
 app.use('/assets/', express.static('./assets'))
+app.use('/lib/', express.static('./lib'))
 
 app.listen(7000, () => {
     console.log('app is running at http://localhost:7000/')
