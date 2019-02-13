@@ -5,8 +5,12 @@
  */
 const fs = require('fs')
 const express = require('express')
-
+let mongoose = require('mongoose')
 let router = express.Router()
+let User = require('../models/user')
+
+// 连接数据库
+mongoose.connect('mongodb://localhost/media', { useMongoClient: true })
 
 router.get('/', (req, res) => {
     res.render('index.html')
@@ -22,39 +26,20 @@ router.get('/about', (req, res) => {
     res.render('about.html')
 })
 router.post('/about', (req, res) => {
-    fs.readFile('db.json', (err, data) => {
-
-        // 取出数据
-        let sourceData = JSON.parse(data.toString())
-
-        // 表单提交过来的数据
-        let { body } = req
-
-
-        // 把提交过来的数据 push 到数据库中
-        sourceData.data.push(body)
-
-       // 再次写入文件 - 持久化
-        fs.writeFile('db.json', JSON.stringify( sourceData ), err => {
-            if (!err) {
-                console.log('提交成功')
-                res.redirect('/')
-            }
-        })
+    let { body } = req
+    new User(body).save((err, user) => {
+        if (err) {
+            return res.status(500).json({
+                err_code:500,
+                message: 'Server error'
+            })
+        }
+        // 提交成功
+        return res.render('index.html')
     })
 })
-var questions=[
-    {
-        data:213,
-        num:444,
-        age:12
-    },
-    {
-        data:456,
-        num:678,
-        age:13
-    }];
 
+// 后台 - 咨询列表
 router.get('/admin', (req, res) => {
     fs.readFile('db.json', (err, data) => {
         let getData = JSON.parse(data.toString()).data
@@ -63,11 +48,12 @@ router.get('/admin', (req, res) => {
         })
     })
 })
-
+// 后台 - 案例管理
 router.get('/admin/case', (req, res) => {
     res.render('../admin/case.html')
 })
 
+// 咨询列表 - API
 router.get('/msg-list', (req, res) => {
     // res.json(questions)
     fs.readFile('db.json', (err, data) => {
