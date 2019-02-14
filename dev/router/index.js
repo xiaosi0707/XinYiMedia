@@ -41,12 +41,8 @@ router.post('/about', (req, res) => {
 
 // 后台 - 咨询列表
 router.get('/admin', (req, res) => {
-    fs.readFile('db.json', (err, data) => {
-        let getData = JSON.parse(data.toString()).data
-        res.render('../admin/index.html', {
-            getData
-        })
-    })
+    res.render('../admin/index.html')
+
 })
 // 后台 - 案例管理
 router.get('/admin/case', (req, res) => {
@@ -55,12 +51,16 @@ router.get('/admin/case', (req, res) => {
 
 // 咨询列表 - API
 router.get('/msg-list', (req, res) => {
-    // res.json(questions)
-    fs.readFile('db.json', (err, data) => {
-        let getData = JSON.parse(data.toString()).data
+    User.find((err, ret) => {
+        if (err) {
+            return res.status(500).json({
+                err_code: 500,
+                message: 'Server error'
+            })
+        }
         res.json({
             code: 0,
-            data:getData
+            data: ret
         })
     })
 })
