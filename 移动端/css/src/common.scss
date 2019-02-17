@@ -12,6 +12,9 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img, div, section, header, dl, dt
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
+i {
+  font-style: normal;
+}
 
 li {
   list-style: none;
@@ -133,4 +136,6 @@ a {
   overflow: hidden;
   padding-bottom: rem(24);
 }
+
+input[type=button],input[type=text],input[type=password],input[type=submit]{-webkit-appearance:none;outline:none}
 

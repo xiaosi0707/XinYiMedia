@@ -116,6 +116,10 @@ a {
   overflow: hidden;
   padding-bottom: 0.512rem; }
 
+input[type=button], .form form p input[type=button][type="submit"], input[type=text], .form form p input[type=text][type="submit"], input[type=password], .form form p input[type=password][type="submit"], input[type=submit], .form form p input[type=submit][type="submit"] {
+  -webkit-appearance: none;
+  outline: none; }
+
 /**
 @Author：Wyunfei
 @Date：2019/1/25/7:41

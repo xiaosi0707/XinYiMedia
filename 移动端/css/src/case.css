@@ -11,10 +11,21 @@
 
 .case-content {
   width: rem(674);
-  margin: 0 auto; }
+  margin: 0 auto rem(62); }
   .case-content dl dt {
     width: 100%; }
     .case-content dl dt img {
       width: 100%; }
+  .case-content dl dd {
+    text-align: center; }
+    .case-content dl dd p {
+      font-size: rem(28);
+      color: #333;
+      font-family: "MicrosoftYaHei";
+      line-height: rem(60); }
+    .case-content dl dd span {
+      display: block;
+      color: #999;
+      font-size: rem(20); }
 
 /*# sourceMappingURL=case.css.map */
