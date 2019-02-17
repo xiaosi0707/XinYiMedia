@@ -3,19 +3,20 @@
 @Date：2019/1/25/7:41
 @FileName: index
 */
+.logo {
+  position: absolute;
+  width: rem(174);
+  height: rem(38);
+  top: rem(46);
+  left: rem(30);
+  @include bg-image('../imgs/logo-white');
+}
 .banner-index {
   width: rem(750);
   height: rem(465);
   position: relative;
   @include bg-image('../imgs/banner');
-  .logo {
-    position: absolute;
-    width: rem(174);
-    height: rem(38);
-    top: rem(46);
-    left: rem(30);
-    @include bg-image('../imgs/logo-white');
-  }
+
   .menu {
     position: absolute;
     width: rem(40);
