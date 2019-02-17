@@ -73,34 +73,16 @@ a {
     .about-footer dl dt {
       width: 2.7733333333rem;
       height: 2.816rem;
-      background-image: url("../imgs/sina.png");
-      background-size: cover;
       float: left;
       margin-right: 1.984rem; }
-      @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-        .about-footer dl dt {
-          background-image: url("../imgs/sina@1.5x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-        .about-footer dl dt {
-          background-image: url("../imgs/sina@2x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-        .about-footer dl dt {
-          background-image: url("../imgs/sina@3x.png"); } }
+      .about-footer dl dt img {
+        width: 100%; }
     .about-footer dl dd {
       width: 2.752rem;
       height: 2.6666666667rem;
-      background-image: url("../imgs/qr-code.png");
-      background-size: cover;
       float: left; }
-      @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-        .about-footer dl dd {
-          background-image: url("../imgs/qr-code@1.5x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-        .about-footer dl dd {
-          background-image: url("../imgs/qr-code@2x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-        .about-footer dl dd {
-          background-image: url("../imgs/qr-code@3x.png"); } }
+      .about-footer dl dd img {
+        width: 100%; }
 
 .copy-right {
   width: 100%;
