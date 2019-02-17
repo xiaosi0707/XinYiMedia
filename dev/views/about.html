@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>新逸传媒 - 关于我们</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+</head>
+<body>
+<script src="/assets/js/init.js"></script>
+<div class="banner">
+    <p class="logo"></p>
+    <p class="menu"></p>
+</div>
+<div class="about">
+    <section>
+        <h2>About 新逸 & 关于</h2>
+        <p>新逸传播（US）</p>
+        <p>既是设计公司，也是传媒公司，传说中的乙方。</p>
+        <p>公司组建2015年，成立2018年，</p>
+        <p>从印刷设计，到品牌设计，到广告传媒</p>
+        <p>从排版，到创意，从标志设计延展到品牌全方位传播，</p>
+        <p>塑造了上百个品牌，全面服务过上百家企业。</p>
+        <p>我们不断进化，不断与时俱进，不断自我超越。</p>
+        <p>2019，新逸传播带着全新的思路再次出发，</p>
+    </section>
+</div>
+<div class="form">
+    <h1>合作咨询<small>(以下内容均为必填)</small></h1>
+
+    <form action="/about" method="post" name="form" onsubmit="return formCheck()">
+        <p>
+            <input type="text" name="name" placeholder="姓名" oninput="checkName()">
+            <i id="name">姓名不能为空</i>
+        </p>
+        <p>
+            <input type="text" name="company" placeholder="公司" oninput="checkCompany()">
+            <i id="company">公司不能为空</i>
+        </p>
+        <p>
+            <input type="tel" placeholder="电话" name="tel" maxlength="11" oninput="checkTel()">
+            <i id="tel">电话号码不能为空</i>
+        </p>
+        <p>
+            <input type="email" placeholder="邮箱" name="email" oninput="checkEmail()">
+            <i id="email">邮箱不能为空</i>
+        </p>
+        <p>
+            <textarea cols="3" placeholder="请填写您咨询的内容" name="content" oninput="checkContent()"></textarea>
+            <i id="content">咨询内容不能为空</i>
+        </p>
+        <p>
+            <input value="提交" type="submit" />
+        </p>
+    </form>
+</div>
+<div class="contact">
+    <p>或者您通过下列方式联系我们</p>
+    <ul>
+        <li>
+            <u>Contact</u>
+        </li>
+
+        <li>
+            <span>商务电话</span>
+            <small>135-8151-7577</small>
+        </li>
+        <li>
+            <span>商务邮箱</span>
+            <small>gemini_0602@163.com</small>
+        </li>
+        <li>
+            <button>在线设计咨询</button>
+        </li>
+    </ul>
+</div>
+{{ include '../templates/footer.html' }}
+<div class="copy-right">
+    @xinyi.all rights reserved.
+</div>
+<script>
+    let name = document.getElementById('name')
+    let company = document.getElementById('company')
+    let tel = document.getElementById('tel')
+    let email = document.getElementById('email')
+    let content = document.getElementById('content')
+    // 姓名
+    function checkName() {
+        let check = false
+        if ( form.name.value === '' || form.name.value === ' ') {
+            name.style.display = 'block'
+            form.name.focus()
+            check = false
+        } else {
+            name.style.display = 'none'
+            form.name.value = form.name.value.replace(/\s+/g,"")
+            check = true
+        }
+        return check
+    }
+    // 公司
+    function checkCompany() {
+        let check = false
+        if ( form.company.value === '' || form.company.value === ' ') {
+            company.style.display = 'block'
+            form.company.focus()
+            check = false
+        } else {
+            company.style.display = 'none'
+            form.company.value = form.company.value.replace(/\s+/g,"")
+            check = true
+        }
+        return check
+    }
+    // 电话
+    function checkTel() {
+        let check = false
+        if ( form.tel.value === '' || form.tel.value === ' ' ) {
+            tel.style.display = 'block'
+            tel.innerHTML = '手机号码不能为空'
+            form.tel.focus()
+            check = false
+        } else if(!(/^1[345678]\d{9}$/.test(form.tel.value))) {
+            tel.style.display = 'block'
+            tel.innerHTML = '手机号码有误'
+            form.tel.focus()
+            check = false
+        } else {
+            tel.style.display = 'none'
+            form.tel.value = form.tel.value.replace(/\s+/g,"")
+            check = true
+        }
+        return check
+    }
+    // 邮箱
+    function checkEmail() {
+        let check = false
+        if ( form.email.value === '' || form.email.value === ' ' ) {
+            email.style.display = 'block'
+            email.innerHTML = '邮箱不能为空'
+            form.email.focus()
+            check = false
+        } else if (!(/^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/.test(form.email.value))) {
+            email.style.display = 'block'
+            email.innerHTML = '邮箱格式不正确'
+            form.email.focus()
+            check = false
+        } else {
+            email.style.display = 'none'
+            form.email.value = form.email.value.replace(/\s+/g,"")
+            check = true
+        }
+        return check
+    }
+    // 内容
+    function checkContent() {
+        let check = false
+        if ( form.content.value === '' || form.content.value === ' '  ) {
+            content.style.display = 'block'
+            form.content.focus()
+            check = false
+        } else if(!(/^[\u4e00-\u9fa5a-z1-9]+$/gi.test(form.content.value))) {
+            content.style.display = 'block'
+            content.innerHTML = '只能输入汉字、字母、数字'
+            form.content.focus()
+            check = false
+        } else {
+            content.style.display = 'none'
+            form.content.value = form.content.value.replace(/\s+/g,"")
+            check = true
+        }
+        return check
+    }
+    // 提交之前全部校验一遍
+    function formCheck() {
+        let check = checkName() && checkCompany() && checkTel() && checkEmail() && checkContent()
+        return check
+        window.location.href = '/'
+    }
+</script>
+</body>
+</html>

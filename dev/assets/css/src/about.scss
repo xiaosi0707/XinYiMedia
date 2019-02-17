@@ -1,0 +1,146 @@
+/**
+@Author：Wyunfei
+@Date：2019/1/27/14:25
+@FileName: about
+*/
+.about {
+  width: rem(750);
+  height: rem(911);
+  position: relative;
+  background-size: contain;
+  @include bg-image('../imgs/about');
+  overflow: hidden;
+  section {
+    width: rem(703);
+    height: rem(564);
+    position: absolute;
+    top: rem(292);
+    left: rem(25);
+    font-family: "MicrosoftYaHei";
+    color: #666666;
+    padding-left: rem(49);
+    h2 {
+      font-size: rem(40);
+      margin-bottom: rem(49);
+      margin-top: rem(60);
+    }
+    p {
+      font-size: rem(26);
+      line-height: rem(45);
+    }
+  }
+}
+.form {
+  width: rem(750);
+  text-align: center;
+  overflow: hidden;
+  h1 {
+    font-size: rem(40);
+    color: #333;
+    font-family: "MicrosoftYaHei";
+    margin-top: rem(68);
+  }
+  small {
+    font-size: rem(26);
+    color: #fd8400;
+    display: block;
+    margin-bottom: rem(65);
+  }
+  form {
+    p {
+      position: relative;
+      margin-top: rem(26);
+      input, textarea {
+        width: rem(676);
+        height: rem(100);
+        border: 2px #EEEEEE solid;
+        font-size: rem(28);
+        text-indent: rem(32);
+        color: #a3a3a3;
+      }
+      input[type="submit"] {
+        @extend input;
+        margin-top: rem(55);
+        width: rem(336);
+        height: rem(79);
+        border: 3px #ff8300 solid;
+        text-indent: 0;
+        color: #ff8300;
+        font-size: rem(32);
+        background: #ffffff;
+      }
+      textarea {
+        height: rem(270);
+        line-height: rem(50);
+        font-family: "MicrosoftYaHei";
+        & + i{
+          top: 132px;
+        }
+      }
+      i {
+        font-size: rem(26);
+        color: #fd8400;
+        position: absolute;
+        top: rem(36);
+        right: rem(50);
+        display: none;
+      }
+    }
+  }
+}
+
+.contact {
+  p {
+    margin-top: rem(100);
+    font-size: rem(32);
+    color: #333;
+    line-height: rem(40);
+    text-align: center;
+  }
+  ul {
+    margin-top: rem(48);
+    width: rem(750);
+    height: rem(637);
+    text-align: center;
+    @include bg-image('../imgs/contact');
+    color: white;
+    padding-top: rem(53);
+    span {
+      width: 100%;
+      font-size: rem(24);
+      color: #d7d7d7;
+      margin-top: rem(58);
+    }
+    small {
+      display: block;
+      font-size: rem(36);
+      color: #d7d7d7;
+    }
+    button {
+      width: rem(284);
+      height: rem(72);
+      background: #000;
+      border: 2px #ffffff solid ;
+      color: #eeeeee;
+    }
+    li {
+      &:first-child {
+        font-size: rem(36);
+      }
+      &:nth-child(2) {
+        margin-top: rem(58);
+      }
+      &:nth-child(3) {
+        margin-top: rem(58);
+      }
+      &:nth-child(4) {
+        margin-top: rem(90);
+      }
+    }
+
+
+
+  }
+}
+
+
