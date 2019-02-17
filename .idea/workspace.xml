@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c9147-4d55-46eb-8917-eeae06d9fdba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/close@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/imgs/close@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/templates/banner-mini.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/templates/banner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/templates/layout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/about.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/about.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/assets/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/banner-mini.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/banner-mini.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/banner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/views/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/views/case-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/views/case-detail.html" afterDir="false" />
@@ -32,46 +30,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
+        <entry file="file://$PROJECT_DIR$/dev/views/case.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/assets/css/src/common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动端/index.html">
+        <entry file="file://$PROJECT_DIR$/dev/templates/banner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="206" column="6" lean-forward="true" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
+            <state relative-caret-position="690">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动端/case.html">
+        <entry file="file://$PROJECT_DIR$/dev/templates/banner-mini.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-947">
-              <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+            <state relative-caret-position="134">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动端/about.html">
+        <entry file="file://$PROJECT_DIR$/dev/templates/layout/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1177">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="161">
+              <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -79,8 +68,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="113" column="19" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="387">
+              <caret line="138" selection-start-line="138" selection-end-line="138" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="73" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/views/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="91" column="25" lean-forward="true" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/views/case-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/assets/css/src/about.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/移动端/case-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -108,6 +142,7 @@
       <find>sub</find>
       <find>logo</find>
       <find>im</find>
+      <find>contact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,10 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/case.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/src/index.scss" />
         <option value="$PROJECT_DIR$/css/src/about.scss" />
         <option value="$PROJECT_DIR$/css/src/common.scss" />
         <option value="$PROJECT_DIR$/PC/css/app.css" />
@@ -136,7 +167,6 @@
         <option value="$PROJECT_DIR$/dev/utils/form-check.js" />
         <option value="$PROJECT_DIR$/dev/utils.js" />
         <option value="$PROJECT_DIR$/dev/aaa.html" />
-        <option value="$PROJECT_DIR$/dev/assets/css/src/about.scss" />
         <option value="$PROJECT_DIR$/dev/data/tsconfig.json" />
         <option value="$PROJECT_DIR$/dev/data/msg.json" />
         <option value="$PROJECT_DIR$/dev/router/asd" />
@@ -158,15 +188,20 @@
         <option value="$PROJECT_DIR$/移动端/css/src/index.scss" />
         <option value="$PROJECT_DIR$/移动端/css/src/common.scss" />
         <option value="$PROJECT_DIR$/移动端/index.html" />
-        <option value="$PROJECT_DIR$/dev/views/index.html" />
-        <option value="$PROJECT_DIR$/dev/views/about.html" />
-        <option value="$PROJECT_DIR$/dev/views/case.html" />
-        <option value="$PROJECT_DIR$/dev/views/case-detail.html" />
-        <option value="$PROJECT_DIR$/dev/templates/banner-mini.html" />
         <option value="$PROJECT_DIR$/dev/assets/css/src/index.scss" />
-        <option value="$PROJECT_DIR$/dev/templates/banner.html" />
-        <option value="$PROJECT_DIR$/dev/templates/footer.html" />
         <option value="$PROJECT_DIR$/dev/assets/css/src/common.scss" />
+        <option value="$PROJECT_DIR$/dev/layout/layout.html" />
+        <option value="$PROJECT_DIR$/dev/layout/base.html" />
+        <option value="$PROJECT_DIR$/dev/templates/footer.html" />
+        <option value="$PROJECT_DIR$/dev/templates/banner.html" />
+        <option value="$PROJECT_DIR$/dev/templates/layout/base.html" />
+        <option value="$PROJECT_DIR$/dev/templates/header.html" />
+        <option value="$PROJECT_DIR$/dev/views/index.html" />
+        <option value="$PROJECT_DIR$/dev/views/case.html" />
+        <option value="$PROJECT_DIR$/dev/templates/banner-mini.html" />
+        <option value="$PROJECT_DIR$/dev/views/about.html" />
+        <option value="$PROJECT_DIR$/dev/assets/css/src/about.scss" />
+        <option value="$PROJECT_DIR$/dev/views/case-detail.html" />
       </list>
     </option>
   </component>
@@ -200,34 +235,6 @@
               <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
               <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,6 +242,11 @@
               <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="移动端" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +261,7 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -260,9 +272,9 @@
       <recent name="E:\新逸传媒\dev\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\新逸传媒\dev\templates" />
       <recent name="E:\新逸传媒\dev" />
       <recent name="E:\新逸传媒\dev\router" />
-      <recent name="E:\新逸传媒\dev\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +315,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104799000" />
+    <option name="totallyTimeSpent" value="108822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="832" extended-state="6" />
@@ -332,16 +344,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PC/imgs/contact.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -403,13 +405,6 @@
     <entry file="file://$PROJECT_DIR$/dev/data/msg.json" />
     <entry file="file://$PROJECT_DIR$/dev/router/asd" />
     <entry file="file://$PROJECT_DIR$/dev/router/asda" />
-    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/aaa.html" />
     <entry file="file://$PROJECT_DIR$/dev/utils/aaa.js" />
     <entry file="file://$PROJECT_DIR$/dev/admin/case.html">
@@ -492,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动端/case-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/移动端/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -540,34 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/views/case-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/banner-mini.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/views/case.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/assets/css/src/case.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -582,52 +542,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/banner.html">
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动端/case.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动端/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1177">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="113" column="19" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="19" />
+        <state relative-caret-position="123">
+          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/移动端/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="206" column="6" lean-forward="true" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
+        <state relative-caret-position="158">
+          <caret line="188" column="16" lean-forward="true" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/case.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="33" selection-start-line="33" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/case.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/banner-mini.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/layout/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="207">
+          <caret line="9" column="73" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/common.scss">
+    <entry file="file://$PROJECT_DIR$/dev/views/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        <state relative-caret-position="161">
+          <caret line="91" column="25" lean-forward="true" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="138" selection-start-line="138" selection-end-line="138" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/case-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/case-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>

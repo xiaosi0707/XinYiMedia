@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Title</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="/lib/layui/css/layui.css">
+</head>
+<body>
+<script src="/assets/js/init.js"></script>
+{{ block 'header' }} {{ /block }}
+{{ block 'content' }} {{ /block }}
+{{ block 'footer' }} {{ /block }}
+<script src="/lib/layui/layui.all.js"></script>
+<script>
+    document.getElementById('menu').onclick = function () {
+        document.getElementById('mask').style.display = 'block'
+    }
+    document.getElementById('close').onclick = function () {
+        document.getElementById('mask').style.display = 'none'
+    }
+</script>
+</body>
+</html>

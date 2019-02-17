@@ -545,7 +545,7 @@ input[type=button], .form form p input[type=button][type="submit"], input[type=t
     font-size: 0.512rem;
     color: #d7d7d7;
     margin-top: 1.2373333333rem; }
-  .contact ul small {
+  .contact ul a {
     display: block;
     font-size: 0.768rem;
     color: #d7d7d7; }

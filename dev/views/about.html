@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <title>新逸传媒 - 关于我们</title>
-    <link rel="stylesheet" href="/assets/css/app.css">
-</head>
-<body>
-<script src="/assets/js/init.js"></script>
-{{ include '../templates/banner.html' }}
+{{ extend '../templates/layout/base.html' }}
+{{ block 'content' }}
+{{ include '../templates/banner-mini.html' }}
 <div class="about">
     <section>
         <h2>About 新逸 & 关于</h2>
@@ -60,20 +52,16 @@
 
         <li>
             <span>商务电话</span>
-            <small>135-8151-7577</small>
+            <a href="tel:135-8151-7577">135-8151-7577</a>
         </li>
         <li>
             <span>商务邮箱</span>
-            <small>gemini_0602@163.com</small>
+            <a href="mailto:gemini_0602@163.com">gemini_0602@163.com</a>
         </li>
         <li>
             <button>在线设计咨询</button>
         </li>
     </ul>
-</div>
-{{ include '../templates/footer.html' }}
-<div class="copy-right">
-    @xinyi.all rights reserved.
 </div>
 <script>
     let name = document.getElementById('name')
@@ -175,5 +163,4 @@
         window.location.href = '/'
     }
 </script>
-</body>
-</html>
+{{ /block }}
