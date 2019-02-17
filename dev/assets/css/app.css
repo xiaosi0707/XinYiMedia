@@ -76,34 +76,16 @@ a {
     .about-footer dl dt {
       width: 2.7733333333rem;
       height: 2.816rem;
-      background-image: url("../imgs/sina.png");
-      background-size: cover;
       float: left;
       margin-right: 1.984rem; }
-      @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-        .about-footer dl dt {
-          background-image: url("../imgs/sina@1.5x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-        .about-footer dl dt {
-          background-image: url("../imgs/sina@2x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-        .about-footer dl dt {
-          background-image: url("../imgs/sina@3x.png"); } }
+      .about-footer dl dt img {
+        width: 100%; }
     .about-footer dl dd {
       width: 2.752rem;
       height: 2.6666666667rem;
-      background-image: url("../imgs/qr-code.png");
-      background-size: cover;
       float: left; }
-      @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-        .about-footer dl dd {
-          background-image: url("../imgs/qr-code@1.5x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-        .about-footer dl dd {
-          background-image: url("../imgs/qr-code@2x.png"); } }
-      @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-        .about-footer dl dd {
-          background-image: url("../imgs/qr-code@3x.png"); } }
+      .about-footer dl dd img {
+        width: 100%; }
 
 .copy-right {
   width: 100%;
@@ -116,6 +98,64 @@ a {
   overflow: hidden;
   padding-bottom: 0.512rem; }
 
+.mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100; }
+  .mask section {
+    width: 100%;
+    overflow: hidden;
+    background: white; }
+    .mask section ul li {
+      width: 90%;
+      margin: 0 auto;
+      height: 3.4133333333rem;
+      line-height: 3.4133333333rem;
+      text-align: center;
+      font-size: 0.768rem; }
+      .mask section ul li .logo {
+        width: 3.712rem;
+        height: 0.8106666667rem;
+        left: 36%;
+        top: 1.6rem;
+        background-image: url("../imgs/logo-black.png");
+        background-size: cover; }
+        @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+          .mask section ul li .logo {
+            background-image: url("../imgs/logo-black@1.5x.png"); } }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+          .mask section ul li .logo {
+            background-image: url("../imgs/logo-black@2x.png"); } }
+        @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+          .mask section ul li .logo {
+            background-image: url("../imgs/logo-black@3x.png"); } }
+      .mask section ul li .close {
+        position: absolute;
+        right: 0.8533333333rem;
+        top: 1.4933333333rem;
+        width: 0.7253333333rem;
+        height: 0.7253333333rem;
+        background-image: url("../imgs/close.png");
+        background-size: cover; }
+        @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+          .mask section ul li .close {
+            background-image: url("../imgs/close@1.5x.png"); } }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+          .mask section ul li .close {
+            background-image: url("../imgs/close@2x.png"); } }
+        @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+          .mask section ul li .close {
+            background-image: url("../imgs/close@3x.png"); } }
+      .mask section ul li a {
+        display: inline-block;
+        width: 100%;
+        color: #171717;
+        border-bottom: 1px #eee solid; }
+
 input[type=button], .form form p input[type=button][type="submit"], input[type=text], .form form p input[type=text][type="submit"], input[type=password], .form form p input[type=password][type="submit"], input[type=submit], .form form p input[type=submit][type="submit"] {
   -webkit-appearance: none;
   outline: none; }
@@ -125,6 +165,24 @@ input[type=button], .form form p input[type=button][type="submit"], input[type=t
 @Date：2019/1/25/7:41
 @FileName: index
 */
+.logo {
+  position: absolute;
+  width: 3.712rem;
+  height: 0.8106666667rem;
+  top: 0.9813333333rem;
+  left: 0.64rem;
+  background-image: url("../imgs/logo-white.png");
+  background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+    .logo {
+      background-image: url("../imgs/logo-white@1.5x.png"); } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    .logo {
+      background-image: url("../imgs/logo-white@2x.png"); } }
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    .logo {
+      background-image: url("../imgs/logo-white@3x.png"); } }
+
 .banner-index {
   width: 16rem;
   height: 9.92rem;
@@ -140,23 +198,6 @@ input[type=button], .form form p input[type=button][type="submit"], input[type=t
   @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
     .banner-index {
       background-image: url("../imgs/banner@3x.png"); } }
-  .banner-index .logo {
-    position: absolute;
-    width: 3.712rem;
-    height: 0.8106666667rem;
-    top: 0.9813333333rem;
-    left: 0.64rem;
-    background-image: url("../imgs/logo-white.png");
-    background-size: cover; }
-    @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-      .banner-index .logo {
-        background-image: url("../imgs/logo-white@1.5x.png"); } }
-    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-      .banner-index .logo {
-        background-image: url("../imgs/logo-white@2x.png"); } }
-    @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
-      .banner-index .logo {
-        background-image: url("../imgs/logo-white@3x.png"); } }
   .banner-index .menu {
     position: absolute;
     width: 0.8533333333rem;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="36e07dba-d79f-48b7-b123-4e84d230151c" name="http" url="http://172.20.10.2">
+        <fileTransfer port="0" mountedRoot="E:\新逸传媒" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
