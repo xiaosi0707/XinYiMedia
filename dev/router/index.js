@@ -13,17 +13,25 @@ let User = require('../models/user')
 mongoose.connect('mongodb://localhost/media', { useMongoClient: true })
 
 router.get('/', (req, res) => {
-    res.render('index.html')
+    res.render('index.html', {
+        title: '新逸传媒 - 首页'
+    })
 })
 router.get('/case', (req, res) => {
-    res.render('case.html')
+    res.render('case.html', {
+        title: '新逸传媒 - 案例中心'
+    })
 
 })
 router.get('/case-detail', (req, res) => {
-    res.render('case-detail.html')
+    res.render('case-detail.html', {
+        title: '新逸传媒 - 案例详情'
+    })
 })
 router.get('/about', (req, res) => {
-    res.render('about.html')
+    res.render('about.html', {
+        title: '新逸传媒 - 关于我们'
+    })
 })
 router.post('/about', (req, res) => {
     let { body } = req
@@ -41,7 +49,9 @@ router.post('/about', (req, res) => {
 
 // 后台 - 咨询列表
 router.get('/admin', (req, res) => {
-    res.render('../admin/index.html')
+    res.render('../admin/index.html', {
+        title: '新逸传媒 - 后台管理中心'
+    })
 
 })
 // 后台 - 案例管理
