@@ -6,6 +6,7 @@
 .about {
   width: rem(750);
   height: rem(911);
+  margin-top: rem(120);
   position: relative;
   background-size: contain;
   @include bg-image('../imgs/about');
@@ -111,14 +112,16 @@
       color: #d7d7d7;
       margin-top: rem(58);
     }
-    a {
+  .tel, .mail{
       display: block;
       font-size: rem(36);
       color: #d7d7d7;
     }
-    button {
+    .ask {
+      display: inline-block;
       width: rem(284);
       height: rem(72);
+      line-height: rem(72);
       background: #000;
       border: 2px #ffffff solid ;
       color: #eeeeee;

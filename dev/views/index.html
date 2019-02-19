@@ -1,7 +1,12 @@
 {{ extend '../templates/layout/base.html' }}
 {{ block 'title' }} {{ title }} {{ /block }}
 {{ block 'content' }}
-{{ include '../templates/banner.html' }}
+<div style="display: none;" id="banner-mini">
+    {{ include '../templates/banner-mini.html' }}
+</div>
+<div style="display: block;" id="banner">
+    {{ include '../templates/banner.html' }}
+</div>
 <div class="service">
     <header class="header">咨询服务 <span>SERVICE</span></header>
     <section class="content">

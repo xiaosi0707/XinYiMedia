@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c9147-4d55-46eb-8917-eeae06d9fdba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/about.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/about.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case-detail.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case-detail.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/case-detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/case-detail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/banner-mini.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/banner-mini.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/templates/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/layout/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/views/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/views/case.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/views/case.html" afterDir="false" />
@@ -21,46 +30,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/templates/layout/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="44" />
+            <state relative-caret-position="138">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/views/case.html">
+        <entry file="file://$PROJECT_DIR$/dev/templates/banner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            <state relative-caret-position="161">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/templates/banner-mini.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/views/about.html">
+        <entry file="file://$PROJECT_DIR$/dev/templates/layout/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="184">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/router/index.js">
+        <entry file="file://$PROJECT_DIR$/dev/views/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+            <state relative-caret-position="161">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -89,6 +102,9 @@
       <find>logo</find>
       <find>im</find>
       <find>contact</find>
+      <find>input</find>
+      <find>banner</find>
+      <find>maskMin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,8 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/src/about.scss" />
-        <option value="$PROJECT_DIR$/css/src/common.scss" />
         <option value="$PROJECT_DIR$/PC/css/app.css" />
         <option value="$PROJECT_DIR$/PC/demo.html" />
         <option value="$PROJECT_DIR$/PC/css/src/index.scss" />
@@ -134,20 +148,22 @@
         <option value="$PROJECT_DIR$/移动端/css/src/common.scss" />
         <option value="$PROJECT_DIR$/移动端/index.html" />
         <option value="$PROJECT_DIR$/dev/assets/css/src/index.scss" />
-        <option value="$PROJECT_DIR$/dev/assets/css/src/common.scss" />
         <option value="$PROJECT_DIR$/dev/layout/layout.html" />
         <option value="$PROJECT_DIR$/dev/layout/base.html" />
         <option value="$PROJECT_DIR$/dev/templates/footer.html" />
-        <option value="$PROJECT_DIR$/dev/templates/banner.html" />
         <option value="$PROJECT_DIR$/dev/templates/header.html" />
-        <option value="$PROJECT_DIR$/dev/templates/banner-mini.html" />
-        <option value="$PROJECT_DIR$/dev/assets/css/src/about.scss" />
         <option value="$PROJECT_DIR$/dev/views/case-detail.html" />
         <option value="$PROJECT_DIR$/dev/router/index.js" />
-        <option value="$PROJECT_DIR$/dev/templates/layout/base.html" />
-        <option value="$PROJECT_DIR$/dev/views/index.html" />
-        <option value="$PROJECT_DIR$/dev/views/case.html" />
+        <option value="$PROJECT_DIR$/dev/assets/css/src/case-detail.scss" />
+        <option value="$PROJECT_DIR$/dev/assets/css/src/about.scss" />
+        <option value="$PROJECT_DIR$/dev/assets/css/src/common.scss" />
+        <option value="$PROJECT_DIR$/dev/template.html" />
+        <option value="$PROJECT_DIR$/dev/templates/banner.html" />
+        <option value="$PROJECT_DIR$/dev/templates/banner-mini.html" />
         <option value="$PROJECT_DIR$/dev/views/about.html" />
+        <option value="$PROJECT_DIR$/dev/views/case.html" />
+        <option value="$PROJECT_DIR$/dev/views/index.html" />
+        <option value="$PROJECT_DIR$/dev/templates/layout/base.html" />
       </list>
     </option>
   </component>
@@ -175,6 +191,12 @@
               <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
               <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
@@ -266,12 +288,12 @@
       <workItem from="1550144131548" duration="1030000" />
       <workItem from="1550236164727" duration="6980000" />
       <workItem from="1550450823048" duration="107000" />
-      <workItem from="1550483220637" duration="669000" />
+      <workItem from="1550483220637" duration="17248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109753000" />
+    <option name="totallyTimeSpent" value="126332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="832" extended-state="6" />
@@ -300,13 +322,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PC/css/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/imgs/case-detail.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -337,9 +352,6 @@
           <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -374,13 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret column="673" lean-forward="true" selection-start-column="673" selection-end-column="673" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -477,27 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/case.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/移动端/case.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -509,27 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/banner-mini.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -561,38 +524,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/layout/base.html">
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="199">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/case.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/case-detail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/assets/css/src/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="179" column="9" lean-forward="true" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        <state relative-caret-position="368">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/views/index.html">
+    <entry file="file://$PROJECT_DIR$/dev/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="138">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/views/case.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="184">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/views/about.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/banner-mini.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/layout/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
         </state>
       </provider>
     </entry>

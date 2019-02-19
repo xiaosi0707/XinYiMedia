@@ -156,7 +156,7 @@ a {
         color: #171717;
         border-bottom: 1px #eee solid; }
 
-input[type=button], .form form p input[type=button][type="submit"], input[type=text], .form form p input[type=text][type="submit"], input[type=password], .form form p input[type=password][type="submit"], input[type=submit], .form form p input[type=submit][type="submit"] {
+input[type=button], .form form p input[type=button][type="submit"], input[type=text], .form form p input[type=text][type="submit"], input[type=password], .form form p input[type=password][type="submit"], input[type=submit], .form form p input[type=submit][type="submit"], input[type=tel], .form form p input[type=tel][type="submit"], input[type=email], .form form p input[type=email][type="submit"], textarea {
   -webkit-appearance: none;
   outline: none; }
 
@@ -387,7 +387,10 @@ input[type=button], .form form p input[type=button][type="submit"], input[type=t
   width: 16rem;
   height: 2.56rem;
   background: white;
-  position: relative; }
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101; }
   .banner .logo {
     position: absolute;
     width: 3.712rem;
@@ -438,6 +441,7 @@ input[type=button], .form form p input[type=button][type="submit"], input[type=t
 .about {
   width: 16rem;
   height: 19.4346666667rem;
+  margin-top: 2.56rem;
   position: relative;
   background-size: contain;
   background-image: url("../imgs/about.png");
@@ -545,13 +549,15 @@ input[type=button], .form form p input[type=button][type="submit"], input[type=t
     font-size: 0.512rem;
     color: #d7d7d7;
     margin-top: 1.2373333333rem; }
-  .contact ul a {
+  .contact ul .tel, .contact ul .mail {
     display: block;
     font-size: 0.768rem;
     color: #d7d7d7; }
-  .contact ul button {
+  .contact ul .ask {
+    display: inline-block;
     width: 6.0586666667rem;
     height: 1.536rem;
+    line-height: 1.536rem;
     background: #000;
     border: 2px #ffffff solid;
     color: #eeeeee; }

@@ -7,7 +7,10 @@
   width: rem(750);
   height: rem(120);
   background: white;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
   .logo {
     position: absolute;
     width: rem(174);
