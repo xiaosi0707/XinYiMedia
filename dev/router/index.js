@@ -75,4 +75,9 @@ router.get('/msg-list', (req, res) => {
     })
 })
 
+// 登录
+router.get('/login', (req, res) => {
+    res.render('../admin/login.html')
+})
+
 module.exports = router
