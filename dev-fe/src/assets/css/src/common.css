@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/**
+@Author：Wyunfei
+@Date：2019/1/25/7:43
+@FileName: common
+*/
+div, section, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+/*# sourceMappingURL=common.css.map */

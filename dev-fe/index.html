@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="static/logo.ico" type="image/x-icon" />
+    <title>新逸传媒</title>
+    <link rel="stylesheet" href="static/layui/css/layui.css">
+  </head>
+  <body>
+  <script>
+    window.addEventListener('orientationchange', setRem);
+    window.addEventListener('resize', setRem);
+    setRem();
+    function setRem() {
+      var html = document.querySelector('html');
+      var width = html.getBoundingClientRect().width;
+      html.style.fontSize = width / 16 + 'px';
+    };
+  </script>
+    <div id="app"></div>
+  <!--<script src="/lib/layui/layui.all.js"></script>-->
+    <!-- built files will be auto injected -->
+  <script src="static/layui/layui.js"></script>
+  </body>
+</html>

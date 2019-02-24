@@ -1,0 +1,148 @@
+/**
+@Author：Wyunfei
+@Date：2019/1/25/7:41
+@FileName: index
+*/
+.logo {
+  position: absolute;
+  width: rem(174);
+  height: rem(38);
+  top: rem(46);
+  left: rem(30);
+  @include bg-image('../imgs/logo-white');
+}
+.banner-index {
+  width: rem(750);
+  height: rem(465);
+  position: relative;
+  @include bg-image('../imgs/banner');
+  .menu {
+    position: absolute;
+    width: rem(40);
+    height: rem(28);
+    top: rem(52);
+    right: rem(30);
+    @include bg-image('../imgs/menu-white');
+  }
+  .title {
+    text-align: center;
+    padding-top: rem(194);
+    span:first-child {
+      font-size: rem(60);
+      color: white;
+      font-family: 'SourceHanSansCN-Light';
+      display: inline-block;
+    }
+    span:last-child {
+      display: inline-block;
+      font-size:rem(30);
+      color: white;
+      font-family: 'ArialMT';
+    }
+  }
+}
+.service {
+  width: 100%;
+  background: #f7f8fa;
+  overflow: hidden;
+  padding-bottom: rem(48);
+}
+.header {
+  margin: rem(54) auto rem(29);
+  width: rem(672);
+  font-size: rem(32);
+  color: #666666;
+  span {
+    font-size:rem(32);
+    color: #999;
+  }
+}
+.content {
+  width: rem(672);
+  overflow: hidden;
+  margin: rem(20) auto 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  background: white;
+  border-radius: 3px;
+  padding: rem(45) 0;
+  dl {
+    dt {
+      width: rem(111);
+      float: left;
+      margin: rem(45) 0 0 rem(41);
+      &.service-icon {
+        height: rem(93);
+        @include bg-image('../imgs/brand');
+      }
+      &.user-icon {
+        height: rem(103);
+        @include bg-image('../imgs/user');
+      }
+      &.network-icon {
+        height: rem(111);
+        @include bg-image('../imgs/network');
+      }
+      &.video-icon {
+        height: rem(111);
+        @include bg-image('../imgs/video');
+      }
+    }
+    dd {
+      float: left;
+      margin-left: rem(63);
+      h1 {
+          font-family: "AdobeHeitiStd-Regular";
+          font-size: rem(48);
+          color: #272727;
+      }
+      ul {
+        li {
+          font-size: rem(26);
+          color: #282828;
+          line-height: rem(50);
+        }
+      }
+    }
+  }
+}
+
+.case-index {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  .case-index-header {
+    margin: rem(36) 0 rem(42) rem(42);
+    font-size: rem(32);
+    color: #666;
+  }
+  .case-index-content {
+    ul {
+      li {
+        position: relative;
+        width: rem(375);
+        height: rem(375);
+        float: left;
+        img {
+          width: 100%;
+        }
+        span {
+          display: inline-block;
+          width: rem(282);
+          height: rem(50);
+          line-height: rem(50);
+          font-size: rem(24);
+          color: white;
+          margin: 0 auto;
+          background: rgba(0,0,0,0.7);
+          text-indent: rem(24);
+          position: absolute;
+          left: rem(32);
+          bottom: rem(32);
+        }
+      }
+    }
+  }
+}
+
+
+

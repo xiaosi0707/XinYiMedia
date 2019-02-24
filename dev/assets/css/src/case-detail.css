@@ -8,7 +8,7 @@ Error: Undefined mixin 'bg-image'.
 7:   width: rem(750);
 8:   height: rem(465);
 9:   position: relative;
-10:   @include bg-image('../imgs/banner');
+10:   @include bg-image('../img/banner');
 11:   .logo {
 12:     position: absolute;
 13:     width: rem(174);

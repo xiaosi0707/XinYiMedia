@@ -110,7 +110,7 @@ a {
     dt {
       width: rem(130);
       height: rem(132);
-      //@include bg-image('../imgs/sina');
+      //@include bg-image('../img/sina');
       float: left;
       margin-right: rem(93);
       img {
@@ -121,7 +121,7 @@ a {
     dd {
       width: rem(129);
       height: rem(125);
-      //@include bg-image('../imgs/qr-code');
+      //@include bg-image('../img/qr-code');
       float: left;
       img {
         width: 100%;

@@ -35,7 +35,9 @@ router.get('/about', (req, res) => {
 })
 router.post('/about', (req, res) => {
     let { body } = req
+    console.log(body)
     new User(body).save((err, user) => {
+        console.log(err)
         if (err) {
             return res.status(500).json({
                 err_code:500,
