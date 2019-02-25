@@ -32,7 +32,7 @@ export default {
       table.render({
         elem: '#demo'
         ,height: 312
-        ,url: 'http://localhost:7000/msg-list' //数据接口
+        ,url: 'http://m.xyucd.com:7000/msg-list' //数据接口
         ,page: true //开启分页
         ,cols: [[ //表头
           {field: '_id', title: 'ID', width:'5%', fixed: 'left'}

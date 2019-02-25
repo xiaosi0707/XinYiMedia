@@ -16,7 +16,7 @@
     </div>
     <div class="form" id="form">
       <h1>合作咨询<small>(以下内容均为必填)</small></h1>
-      <form name="form" action="http://localhost:7000/about" method="post" @submit="checkForm">
+      <form name="form" action="http://m.xyucd.com:7000/about" method="post" @submit="checkForm">
         <p>
           <input type="text" v-model.trim="user.name" name="name" placeholder="姓名" @input="checkName" />
           <i id="name">姓名不能为空</i>
@@ -170,7 +170,7 @@ export default {
     checkForm: function (e) {
       if (this.checkName() && this.checkCompany() && this.checkTel() && this.checkEmail() && this.checkContent()) {
         return true
-        window.location.href = 'http://localhost:8081/'
+        window.location.href = 'http://m.xyucd.com/'
       }
       e.preventDefault();
 
