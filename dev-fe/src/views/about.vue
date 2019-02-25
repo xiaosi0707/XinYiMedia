@@ -55,7 +55,7 @@
         </li>
         <li>
           <span>商务邮箱</span>
-          <a href="mailto:gemini_0602@163.com" class="mail">gemini_0602@163.com</a>
+          <a href="mailto:xinyiucd@163.com" class="mail">xinyiucd@163.com</a>
         </li>
         <li>
           <a href="#form" class="ask">在线设计咨询</a>

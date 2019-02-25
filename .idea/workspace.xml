@@ -2,454 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c9147-4d55-46eb-8917-eeae06d9fdba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/admin/components/header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/admin/components/nav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/admin/views/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/88ec71fe05882ae3a2fb2b81a90ef20837ca067a/app.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/b133cced852388117021c6946c5c6984ade3adbf/app.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/.sass-cache/e35347446ecc61a55f871d5f97e40515aab36754/app.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/about.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/case-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/case-detail.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/case-detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/case.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/case.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/case.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/common.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/css/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/about@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/about@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/about@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/banner@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/banner@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/banner@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/brand@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/brand@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/brand@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/case8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/close@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/close@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/contact@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/contact@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/contact@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/logo-black@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/logo-black@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/logo-black@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/logo-white@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/logo-white@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/logo-white@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/menu-black@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/menu-black@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/menu-black@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/menu-white@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/menu-white@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/menu-white@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/network@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/network@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/network@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/qr-code@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/qr-code@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/qr-code@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/sina@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/sina@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/sina@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/user@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/user@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/user@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/video@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/video@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/imgs/video@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/assets/js/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/components/banner.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/components/footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/components/mini-banner.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/utils/fixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/utils/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/views/about.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/views/case-detail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/views/case.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/views/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/src/views/no-found.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/static/logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-fe/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/admin/case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/admin/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/admin/templates/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/88ec71fe05882ae3a2fb2b81a90ef20837ca067a/app.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/b133cced852388117021c6946c5c6984ade3adbf/app.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/de4d3def5b2906b0ab81cc436f53da0091f8a4a7/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/.sass-cache/e35347446ecc61a55f871d5f97e40515aab36754/app.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/app.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case-detail.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/case.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/common.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/.sass-cache/6d0b9e713254c1faf45ef95aef9c1b103a3261b8/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/about.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/case-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/case-detail.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/case-detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/case.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/case.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/case.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/common.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/css/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/about@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/about@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/about@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/banner@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/banner@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/banner@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/brand@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/brand@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/brand@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/case8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/close@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/close@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/contact@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/contact@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/contact@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/logo-black@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/logo-black@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/logo-black@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/logo-white@1,5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/logo-white@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/logo-white@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/menu-black@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/menu-black@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/menu-black@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/menu-white@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/menu-white@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/menu-white@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/network@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/network@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/network@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/qr-code@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/qr-code@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/qr-code@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/sina@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/sina@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/sina@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/user@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/user@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/user@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/video@1.5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/video@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/imgs/video@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/assets/js/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/lib/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/templates/banner-mini.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/templates/banner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/templates/layout/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/views/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/views/case-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/views/case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/src/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-dev/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/.sass-cache/16e0f155eff41aedba7bcdcb3e598459fabd9207/common.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/case-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/case-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/css/src/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/css/src/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/移动端/css/src/case-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/移动端/css/src/case-detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-fe/src/components/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev-fe/src/components/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-fe/src/views/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev-fe/src/views/about.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -461,7 +16,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev-fe/src/components/footer.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev-fe/src/views/about.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -528,7 +102,6 @@
         <option value="$PROJECT_DIR$/dev-fe/src/assets/css/app.css" />
         <option value="$PROJECT_DIR$/dev-fe/src/assets/css/src/common.scss" />
         <option value="$PROJECT_DIR$/dev-fe/src/App.vue" />
-        <option value="$PROJECT_DIR$/dev-fe/src/components/footer.vue" />
         <option value="$PROJECT_DIR$/webpack-dev/src/assets/css/src/about.scss" />
         <option value="$PROJECT_DIR$/dev-fe/src/views/case-detail.vue" />
         <option value="$PROJECT_DIR$/dev/router/index.js" />
@@ -543,7 +116,6 @@
         <option value="$PROJECT_DIR$/dev-fe/src/main.js" />
         <option value="$PROJECT_DIR$/dev-fe/src/views/index.vue" />
         <option value="$PROJECT_DIR$/dev-fe/src/views/case.vue" />
-        <option value="$PROJECT_DIR$/dev-fe/src/views/about.vue" />
         <option value="$PROJECT_DIR$/dev-fe/index.html" />
         <option value="$PROJECT_DIR$/dev-fe/src/components/banner.vue" />
         <option value="$PROJECT_DIR$/dev-fe/src/components/mini-banner.vue" />
@@ -555,6 +127,8 @@
         <option value="$PROJECT_DIR$/dev-fe/src/components/onFound.vue" />
         <option value="$PROJECT_DIR$/dev-fe/src/router/index.js" />
         <option value="$PROJECT_DIR$/dev/web.config" />
+        <option value="$PROJECT_DIR$/dev-fe/src/components/footer.vue" />
+        <option value="$PROJECT_DIR$/dev-fe/src/views/about.vue" />
       </list>
     </option>
   </component>
@@ -579,6 +153,31 @@
               <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
               <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-fe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="新逸传媒" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新逸传媒" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -597,19 +196,19 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\新逸传媒\dev-fe\static\imgs" />
-      <recent name="E:\新逸传媒\dev-fe\static" />
-      <recent name="E:\新逸传媒\dev-fe\src" />
-      <recent name="E:\新逸传媒\dev-fe\src\assets" />
-      <recent name="E:\新逸传媒\dev-fe\src\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\新逸传媒\dev-fe" />
       <recent name="E:\新逸传媒\dev-fe\src\views" />
       <recent name="E:\新逸传媒\dev-fe\src\assets" />
       <recent name="E:\新逸传媒\dev-fe\static" />
       <recent name="E:\新逸传媒\dev-fe\src\admin\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\新逸传媒\dev-fe\static\imgs" />
+      <recent name="E:\新逸传媒\dev-fe\static" />
+      <recent name="E:\新逸传媒\dev-fe\src" />
+      <recent name="E:\新逸传媒\dev-fe\src\assets" />
+      <recent name="E:\新逸传媒\dev-fe\src\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -655,12 +254,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172567000" />
+    <option name="totallyTimeSpent" value="172660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="913" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25428027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14965123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -672,7 +272,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3126649" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3126649" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -712,13 +312,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev-fe/src/views/index.html" />
-    <entry file="file://$PROJECT_DIR$/dev-fe/src/components/footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/templates/banner-mini.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -734,13 +327,7 @@
     <entry file="file://$PROJECT_DIR$/dev-fe/src/assets/css/src/case-detail.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-dev/src/assets/css/src/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-dev/src/assets/css/src/about.scss" />
     <entry file="file://$PROJECT_DIR$/dev/views/case-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -885,46 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-fe/dist/static/css/app.94c42760767eedfa0690e9d66ba58912.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret column="746" selection-start-column="746" selection-end-column="746" />
-          <folding>
-            <element signature="e#2707#4086#2" expanded="true" />
-            <element signature="e#4226#5605#2" expanded="true" />
-            <element signature="e#5720#7751#2" expanded="true" />
-            <element signature="e#7866#10993#2" expanded="true" />
-            <element signature="e#12800#13483#2" expanded="true" />
-            <element signature="e#13616#14299#2" expanded="true" />
-            <element signature="e#14407#15182#2" expanded="true" />
-            <element signature="e#15290#16165#2" expanded="true" />
-            <element signature="e#16971#25674#2" expanded="true" />
-            <element signature="e#25815#34518#2" expanded="true" />
-            <element signature="e#34634#46445#2" expanded="true" />
-            <element signature="e#46665#50636#2" expanded="true" />
-            <element signature="e#50774#54745#2" expanded="true" />
-            <element signature="e#54858#60033#2" expanded="true" />
-            <element signature="e#60146#67889#2" expanded="true" />
-            <element signature="e#67952#78663#2" expanded="true" />
-            <element signature="e#78804#89515#2" expanded="true" />
-            <element signature="e#89886#99049#2" expanded="true" />
-            <element signature="e#99188#108351#2" expanded="true" />
-            <element signature="e#108465#120140#2" expanded="true" />
-            <element signature="e#122324#123011#2" expanded="true" />
-            <element signature="e#123138#123825#2" expanded="true" />
-            <element signature="e#123927#124702#2" expanded="true" />
-            <element signature="e#124804#125683#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-fe/src/views/about.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-fe/dist/static/css/app.94c42760767eedfa0690e9d66ba58912.css" />
     <entry file="file://$PROJECT_DIR$/dev/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -974,13 +522,7 @@
         <state relative-caret-position="-399" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-fe/dist/web.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-fe/dist/web.config.js" />
     <entry file="file://$PROJECT_DIR$/dev-fe/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1070,6 +612,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-fe/src/components/footer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-fe/src/views/about.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
         </state>
       </provider>
     </entry>

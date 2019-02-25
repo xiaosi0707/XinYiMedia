@@ -9,7 +9,7 @@
           商务电话 <a href="tel:135-8151-7577">135-8151-7577</a>
         </p>
         <p>
-          商务邮箱 <a href="mailto:gemini_0602@163.com">gemini_0602@163.com</a>
+          商务邮箱 <a href="mailto:xinyiucd@163.com">xinyiucd@163.com</a>
         </p>
       </div>
       <div class="about-footer">
